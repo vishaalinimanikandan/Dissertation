@@ -1,0 +1,110 @@
+{
+  "chart_title": "Business Performance Analysis - Grouped_Bar",
+  "chart_type": "grouped_bar",
+  "data": [
+    {
+      "category": "Product A - Series 1",
+      "value": 900
+    },
+    {
+      "category": "Product A - Series 2",
+      "value": 950
+    },
+    {
+      "category": "Product B - Series 1",
+      "value": 950
+    },
+    {
+      "category": "Product B - Series 2",
+      "value": 950
+    },
+    {
+      "category": "Product C - Series 1",
+      "value": 400
+    },
+    {
+      "category": "Product C - Series 2",
+      "value": 450
+    },
+    {
+      "category": "Product D - Series 1",
+      "value": 700
+    },
+    {
+      "category": "Product D - Series 2",
+      "value": 650
+    },
+    {
+      "category": "Product E - Series 1",
+      "value": 500
+    },
+    {
+      "category": "Product E - Series 2",
+      "value": 550
+    },
+    {
+      "category": "Product F - Series 1",
+      "value": 300
+    },
+    {
+      "category": "Product F - Series 2",
+      "value": 250
+    },
+    {
+      "category": "Product G - Series 1",
+      "value": 50
+    },
+    {
+      "category": "Product G - Series 2",
+      "value": 100
+    },
+    {
+      "category": "Product H - Series 1",
+      "value": 900
+    },
+    {
+      "category": "Product H - Series 2",
+      "value": 950
+    },
+    {
+      "category": "Product I - Series 1",
+      "value": 800
+    },
+    {
+      "category": "Product I - Series 2",
+      "value": 850
+    },
+    {
+      "category": "Product J - Series 1",
+      "value": 600
+    },
+    {
+      "category": "Product J - Series 2",
+      "value": 650
+    },
+    {
+      "category": "Product K - Series 1",
+      "value": 500
+    },
+    {
+      "category": "Product K - Series 2",
+      "value": 550
+    },
+    {
+      "category": "Product L - Series 1",
+      "value": 400
+    },
+    {
+      "category": "Product L - Series 2",
+      "value": 450
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the bar heights.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_070.png",
+    "extraction_timestamp": "2025-06-06T23:14:51.605839",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

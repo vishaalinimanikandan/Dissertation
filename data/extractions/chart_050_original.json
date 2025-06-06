@@ -1,0 +1,30 @@
+{
+  "chart_title": "Demographic Distribution - Pie",
+  "chart_type": "pie",
+  "data": [
+    {
+      "category": "Group 1",
+      "value": 24.4
+    },
+    {
+      "category": "Group 2",
+      "value": 26.9
+    },
+    {
+      "category": "Group 3",
+      "value": 12.8
+    },
+    {
+      "category": "Group 4",
+      "value": 35.9
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "The percentages sum to 100% as expected for a pie chart.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_050.png",
+    "extraction_timestamp": "2025-06-06T23:17:03.812992",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

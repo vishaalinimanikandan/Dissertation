@@ -1,0 +1,58 @@
+{
+  "chart_title": "Healthcare Outcomes - Scatter",
+  "chart_type": "scatter",
+  "data": [
+    {
+      "category": "Treatment A",
+      "value": 1000
+    },
+    {
+      "category": "Treatment B",
+      "value": 600
+    },
+    {
+      "category": "Treatment C",
+      "value": 800
+    },
+    {
+      "category": "Treatment D",
+      "value": 700
+    },
+    {
+      "category": "Treatment E",
+      "value": 500
+    },
+    {
+      "category": "Treatment F",
+      "value": 300
+    },
+    {
+      "category": "Treatment G",
+      "value": 900
+    },
+    {
+      "category": "Treatment H",
+      "value": 750
+    },
+    {
+      "category": "Treatment I",
+      "value": 650
+    },
+    {
+      "category": "Treatment J",
+      "value": 200
+    },
+    {
+      "category": "Treatment K",
+      "value": 950
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Data points are clearly visible and distinct.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_028.png",
+    "extraction_timestamp": "2025-06-06T23:15:37.807613",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

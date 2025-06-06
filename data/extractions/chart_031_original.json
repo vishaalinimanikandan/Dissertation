@@ -1,0 +1,42 @@
+{
+  "chart_title": "Healthcare Outcomes - Line",
+  "chart_type": "line",
+  "data": [
+    {
+      "category": "Treatment A",
+      "value": 100
+    },
+    {
+      "category": "Treatment B",
+      "value": 120
+    },
+    {
+      "category": "Treatment C",
+      "value": 125
+    },
+    {
+      "category": "Treatment D",
+      "value": 90
+    },
+    {
+      "category": "Treatment E",
+      "value": 140
+    },
+    {
+      "category": "Treatment F",
+      "value": 130
+    },
+    {
+      "category": "Treatment G",
+      "value": 80
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the line chart points.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_031.png",
+    "extraction_timestamp": "2025-06-06T23:13:42.231466",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

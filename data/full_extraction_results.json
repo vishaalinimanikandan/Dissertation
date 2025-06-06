@@ -1,0 +1,2444 @@
+{
+  "chart_042": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Scientific Measurements - Bar",
+      "chart_type": "bar",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 10
+        },
+        {
+          "category": "Sample 2",
+          "value": 20
+        },
+        {
+          "category": "Sample 3",
+          "value": 30
+        },
+        {
+          "category": "Sample 4",
+          "value": 35
+        },
+        {
+          "category": "Sample 5",
+          "value": 45
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the bar heights.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_042.png",
+        "extraction_timestamp": "2025-06-06T23:12:48.043799",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Scientific Measurements - Bar",
+      "chart_type": "bar",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 12
+        },
+        {
+          "category": "Sample 2",
+          "value": 21
+        },
+        {
+          "category": "Sample 3",
+          "value": 34
+        },
+        {
+          "category": "Sample 4",
+          "value": 38
+        },
+        {
+          "category": "Sample 5",
+          "value": 46
+        }
+      ]
+    }
+  },
+  "chart_046": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Financial Portfolio Analysis - Bar",
+      "chart_type": "bar",
+      "data": [
+        {
+          "category": "Asset A",
+          "value": 200
+        },
+        {
+          "category": "Asset B",
+          "value": 275
+        },
+        {
+          "category": "Asset C",
+          "value": 300
+        },
+        {
+          "category": "Asset D",
+          "value": 250
+        },
+        {
+          "category": "Asset E",
+          "value": 125
+        },
+        {
+          "category": "Asset F",
+          "value": 225
+        },
+        {
+          "category": "Asset G",
+          "value": 100
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the bar heights relative to the y-axis.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_046.png",
+        "extraction_timestamp": "2025-06-06T23:12:55.977677",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Financial Portfolio Analysis - Bar",
+      "chart_type": "bar",
+      "data": [
+        {
+          "category": "Asset A",
+          "value": 192
+        },
+        {
+          "category": "Asset B",
+          "value": 282
+        },
+        {
+          "category": "Asset C",
+          "value": 298
+        },
+        {
+          "category": "Asset D",
+          "value": 257
+        },
+        {
+          "category": "Asset E",
+          "value": 72
+        },
+        {
+          "category": "Asset F",
+          "value": 168
+        },
+        {
+          "category": "Asset G",
+          "value": 34
+        }
+      ]
+    }
+  },
+  "chart_001": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Healthcare Outcomes - Bar",
+      "chart_type": "bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 350
+        },
+        {
+          "category": "Treatment B",
+          "value": 700
+        },
+        {
+          "category": "Treatment C",
+          "value": 750
+        },
+        {
+          "category": "Treatment D",
+          "value": 600
+        },
+        {
+          "category": "Treatment E",
+          "value": 800
+        },
+        {
+          "category": "Treatment F",
+          "value": 450
+        },
+        {
+          "category": "Treatment G",
+          "value": 650
+        },
+        {
+          "category": "Treatment H",
+          "value": 550
+        },
+        {
+          "category": "Treatment I",
+          "value": 750
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the bar heights.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_001.png",
+        "extraction_timestamp": "2025-06-06T23:13:04.977898",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Healthcare Outcomes - Bar",
+      "chart_type": "bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 362
+        },
+        {
+          "category": "Treatment B",
+          "value": 697
+        },
+        {
+          "category": "Treatment C",
+          "value": 779
+        },
+        {
+          "category": "Treatment D",
+          "value": 627
+        },
+        {
+          "category": "Treatment E",
+          "value": 843
+        },
+        {
+          "category": "Treatment F",
+          "value": 430
+        },
+        {
+          "category": "Treatment G",
+          "value": 608
+        },
+        {
+          "category": "Treatment H",
+          "value": 498
+        },
+        {
+          "category": "Treatment I",
+          "value": 708
+        }
+      ]
+    }
+  },
+  "chart_032": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Business Performance Analysis - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 22.5
+        },
+        {
+          "category": "Product B",
+          "value": 29.6
+        },
+        {
+          "category": "Product C",
+          "value": 15.5
+        },
+        {
+          "category": "Product D",
+          "value": 32.4
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "The percentages sum to 100% as expected.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_032.png",
+        "extraction_timestamp": "2025-06-06T23:13:11.941366",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Business Performance Analysis - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 22.5
+        },
+        {
+          "category": "Product B",
+          "value": 29.6
+        },
+        {
+          "category": "Product C",
+          "value": 15.5
+        },
+        {
+          "category": "Product D",
+          "value": 32.4
+        }
+      ]
+    }
+  },
+  "chart_054": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Demographic Distribution - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 24.1
+        },
+        {
+          "category": "Group 2",
+          "value": 9.6
+        },
+        {
+          "category": "Group 3",
+          "value": 28.9
+        },
+        {
+          "category": "Group 4",
+          "value": 10.8
+        },
+        {
+          "category": "Group 5",
+          "value": 16.9
+        },
+        {
+          "category": "Group 6",
+          "value": 9.6
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "All percentages sum to 100% as expected.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_054.png",
+        "extraction_timestamp": "2025-06-06T23:13:21.563165",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Demographic Distribution - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 24.1
+        },
+        {
+          "category": "Group 2",
+          "value": 9.6
+        },
+        {
+          "category": "Group 3",
+          "value": 28.9
+        },
+        {
+          "category": "Group 4",
+          "value": 10.8
+        },
+        {
+          "category": "Group 5",
+          "value": 16.9
+        },
+        {
+          "category": "Group 6",
+          "value": 9.6
+        }
+      ]
+    }
+  },
+  "chart_097": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Scientific Measurements - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 9.9
+        },
+        {
+          "category": "Sample 2",
+          "value": 15.2
+        },
+        {
+          "category": "Sample 3",
+          "value": 12.6
+        },
+        {
+          "category": "Sample 4",
+          "value": 12.6
+        },
+        {
+          "category": "Sample 5",
+          "value": 4.6
+        },
+        {
+          "category": "Sample 6",
+          "value": 17.9
+        },
+        {
+          "category": "Sample 7",
+          "value": 3.3
+        },
+        {
+          "category": "Sample 8",
+          "value": 14.6
+        },
+        {
+          "category": "Sample 9",
+          "value": 9.3
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "All percentages extracted accurately and sum to approximately 100%.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_097.png",
+        "extraction_timestamp": "2025-06-06T23:13:29.125414",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Scientific Measurements - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 9.9
+        },
+        {
+          "category": "Sample 2",
+          "value": 15.2
+        },
+        {
+          "category": "Sample 3",
+          "value": 12.6
+        },
+        {
+          "category": "Sample 4",
+          "value": 12.6
+        },
+        {
+          "category": "Sample 5",
+          "value": 4.6
+        },
+        {
+          "category": "Sample 6",
+          "value": 17.9
+        },
+        {
+          "category": "Sample 7",
+          "value": 3.3
+        },
+        {
+          "category": "Sample 8",
+          "value": 14.6
+        },
+        {
+          "category": "Sample 9",
+          "value": 9.3
+        }
+      ]
+    }
+  },
+  "chart_044": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Scientific Measurements - Line",
+      "chart_type": "line",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 50
+        },
+        {
+          "category": "Sample 2",
+          "value": 45
+        },
+        {
+          "category": "Sample 3",
+          "value": 70
+        },
+        {
+          "category": "Sample 4",
+          "value": 45
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the line chart points.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_044.png",
+        "extraction_timestamp": "2025-06-06T23:13:34.750882",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Scientific Measurements - Line",
+      "chart_type": "line",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 50
+        },
+        {
+          "category": "Sample 2",
+          "value": 42
+        },
+        {
+          "category": "Sample 3",
+          "value": 71
+        },
+        {
+          "category": "Sample 4",
+          "value": 45
+        }
+      ]
+    }
+  },
+  "chart_031": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Healthcare Outcomes - Line",
+      "chart_type": "line",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 100
+        },
+        {
+          "category": "Treatment B",
+          "value": 120
+        },
+        {
+          "category": "Treatment C",
+          "value": 125
+        },
+        {
+          "category": "Treatment D",
+          "value": 90
+        },
+        {
+          "category": "Treatment E",
+          "value": 140
+        },
+        {
+          "category": "Treatment F",
+          "value": 130
+        },
+        {
+          "category": "Treatment G",
+          "value": 80
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the line chart points.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_031.png",
+        "extraction_timestamp": "2025-06-06T23:13:42.231466",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Healthcare Outcomes - Line",
+      "chart_type": "line",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 102
+        },
+        {
+          "category": "Treatment B",
+          "value": 122
+        },
+        {
+          "category": "Treatment C",
+          "value": 126
+        },
+        {
+          "category": "Treatment D",
+          "value": 99
+        },
+        {
+          "category": "Treatment E",
+          "value": 133
+        },
+        {
+          "category": "Treatment F",
+          "value": 143
+        },
+        {
+          "category": "Treatment G",
+          "value": 77
+        }
+      ]
+    }
+  },
+  "chart_033": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Scientific Measurements - Line",
+      "chart_type": "line",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 60
+        },
+        {
+          "category": "Sample 2",
+          "value": 62
+        },
+        {
+          "category": "Sample 3",
+          "value": 65
+        },
+        {
+          "category": "Sample 4",
+          "value": 65
+        },
+        {
+          "category": "Sample 5",
+          "value": 80
+        },
+        {
+          "category": "Sample 6",
+          "value": 75
+        },
+        {
+          "category": "Sample 7",
+          "value": 90
+        },
+        {
+          "category": "Sample 8",
+          "value": 85
+        },
+        {
+          "category": "Sample 9",
+          "value": 100
+        },
+        {
+          "category": "Sample 10",
+          "value": 140
+        },
+        {
+          "category": "Sample 11",
+          "value": 130
+        },
+        {
+          "category": "Sample 12",
+          "value": 60
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the line chart.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_033.png",
+        "extraction_timestamp": "2025-06-06T23:13:51.643917",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Scientific Measurements - Line",
+      "chart_type": "line",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 58
+        },
+        {
+          "category": "Sample 2",
+          "value": 59
+        },
+        {
+          "category": "Sample 3",
+          "value": 67
+        },
+        {
+          "category": "Sample 4",
+          "value": 69
+        },
+        {
+          "category": "Sample 5",
+          "value": 68
+        },
+        {
+          "category": "Sample 6",
+          "value": 95
+        },
+        {
+          "category": "Sample 7",
+          "value": 85
+        },
+        {
+          "category": "Sample 8",
+          "value": 110
+        },
+        {
+          "category": "Sample 9",
+          "value": 106
+        },
+        {
+          "category": "Sample 10",
+          "value": 146
+        },
+        {
+          "category": "Sample 11",
+          "value": 138
+        },
+        {
+          "category": "Sample 12",
+          "value": 66
+        }
+      ]
+    }
+  },
+  "chart_012": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Demographic Distribution - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 15
+        },
+        {
+          "category": "Group 2",
+          "value": 25
+        },
+        {
+          "category": "Group 3",
+          "value": 18
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the bar heights.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_012.png",
+        "extraction_timestamp": "2025-06-06T23:13:58.267904",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Demographic Distribution - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 24
+        },
+        {
+          "category": "Group 2",
+          "value": 36
+        },
+        {
+          "category": "Group 3",
+          "value": 37
+        }
+      ]
+    }
+  },
+  "chart_081": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Scientific Measurements - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 100
+        },
+        {
+          "category": "Sample 2",
+          "value": 700
+        },
+        {
+          "category": "Sample 3",
+          "value": 50
+        },
+        {
+          "category": "Sample 4",
+          "value": 400
+        },
+        {
+          "category": "Sample 5",
+          "value": 500
+        },
+        {
+          "category": "Sample 6",
+          "value": 750
+        },
+        {
+          "category": "Sample 7",
+          "value": 50
+        },
+        {
+          "category": "Sample 8",
+          "value": 450
+        }
+      ],
+      "extraction_confidence": "medium",
+      "notes": "Values are estimated based on visual inspection of the chart.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_081.png",
+        "extraction_timestamp": "2025-06-06T23:14:04.557294",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Scientific Measurements - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 54
+        },
+        {
+          "category": "Sample 2",
+          "value": 430
+        },
+        {
+          "category": "Sample 3",
+          "value": 13
+        },
+        {
+          "category": "Sample 4",
+          "value": 330
+        },
+        {
+          "category": "Sample 5",
+          "value": 258
+        },
+        {
+          "category": "Sample 6",
+          "value": 497
+        },
+        {
+          "category": "Sample 7",
+          "value": 34
+        },
+        {
+          "category": "Sample 8",
+          "value": 314
+        }
+      ]
+    }
+  },
+  "chart_059": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Healthcare Outcomes - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 300
+        },
+        {
+          "category": "Treatment B",
+          "value": 1200
+        },
+        {
+          "category": "Treatment C",
+          "value": 1100
+        },
+        {
+          "category": "Treatment D",
+          "value": 1400
+        },
+        {
+          "category": "Treatment E",
+          "value": 600
+        },
+        {
+          "category": "Treatment F",
+          "value": 1000
+        },
+        {
+          "category": "Treatment G",
+          "value": 1300
+        },
+        {
+          "category": "Treatment H",
+          "value": 1100
+        },
+        {
+          "category": "Treatment I",
+          "value": 300
+        },
+        {
+          "category": "Treatment J",
+          "value": 1200
+        }
+      ],
+      "extraction_confidence": "medium",
+      "notes": "Values are estimated based on visual inspection of the chart.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_059.png",
+        "extraction_timestamp": "2025-06-06T23:14:12.140292",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Healthcare Outcomes - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 184
+        },
+        {
+          "category": "Treatment B",
+          "value": 628
+        },
+        {
+          "category": "Treatment C",
+          "value": 706
+        },
+        {
+          "category": "Treatment D",
+          "value": 789
+        },
+        {
+          "category": "Treatment E",
+          "value": 338
+        },
+        {
+          "category": "Treatment F",
+          "value": 567
+        },
+        {
+          "category": "Treatment G",
+          "value": 609
+        },
+        {
+          "category": "Treatment H",
+          "value": 945
+        },
+        {
+          "category": "Treatment I",
+          "value": 89
+        },
+        {
+          "category": "Treatment J",
+          "value": 736
+        }
+      ]
+    }
+  },
+  "chart_075": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Scientific Measurements - Grouped_Bar",
+      "chart_type": "grouped_bar",
+      "data": [
+        {
+          "category": "Sample 1 - Series 1",
+          "value": 35
+        },
+        {
+          "category": "Sample 1 - Series 2",
+          "value": 45
+        },
+        {
+          "category": "Sample 2 - Series 1",
+          "value": 25
+        },
+        {
+          "category": "Sample 2 - Series 2",
+          "value": 30
+        },
+        {
+          "category": "Sample 3 - Series 1",
+          "value": 80
+        },
+        {
+          "category": "Sample 3 - Series 2",
+          "value": 70
+        },
+        {
+          "category": "Sample 4 - Series 1",
+          "value": 10
+        },
+        {
+          "category": "Sample 4 - Series 2",
+          "value": 10
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the bar heights.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_075.png",
+        "extraction_timestamp": "2025-06-06T23:14:22.552555",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Scientific Measurements - Grouped_Bar",
+      "chart_type": "grouped_bar",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 35
+        },
+        {
+          "category": "Sample 2",
+          "value": 33
+        },
+        {
+          "category": "Sample 3",
+          "value": 85
+        },
+        {
+          "category": "Sample 4",
+          "value": 17
+        }
+      ]
+    }
+  },
+  "chart_099": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Healthcare Outcomes - Grouped_Bar",
+      "chart_type": "grouped_bar",
+      "data": [
+        {
+          "category": "Treatment A - Series 1",
+          "value": 350
+        },
+        {
+          "category": "Treatment A - Series 2",
+          "value": 450
+        },
+        {
+          "category": "Treatment B - Series 1",
+          "value": 250
+        },
+        {
+          "category": "Treatment B - Series 2",
+          "value": 300
+        },
+        {
+          "category": "Treatment C - Series 1",
+          "value": 100
+        },
+        {
+          "category": "Treatment C - Series 2",
+          "value": 150
+        },
+        {
+          "category": "Treatment D - Series 1",
+          "value": 450
+        },
+        {
+          "category": "Treatment D - Series 2",
+          "value": 400
+        },
+        {
+          "category": "Treatment E - Series 1",
+          "value": 10
+        },
+        {
+          "category": "Treatment E - Series 2",
+          "value": 20
+        },
+        {
+          "category": "Treatment F - Series 1",
+          "value": 200
+        },
+        {
+          "category": "Treatment F - Series 2",
+          "value": 100
+        },
+        {
+          "category": "Treatment G - Series 1",
+          "value": 150
+        },
+        {
+          "category": "Treatment G - Series 2",
+          "value": 120
+        },
+        {
+          "category": "Treatment H - Series 1",
+          "value": 300
+        },
+        {
+          "category": "Treatment H - Series 2",
+          "value": 350
+        }
+      ],
+      "extraction_confidence": "medium",
+      "notes": "Values are estimated based on visual inspection; exact values may vary slightly.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_099.png",
+        "extraction_timestamp": "2025-06-06T23:14:34.649496",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Healthcare Outcomes - Grouped_Bar",
+      "chart_type": "grouped_bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 353
+        },
+        {
+          "category": "Treatment B",
+          "value": 270
+        },
+        {
+          "category": "Treatment C",
+          "value": 116
+        },
+        {
+          "category": "Treatment D",
+          "value": 478
+        },
+        {
+          "category": "Treatment E",
+          "value": 11
+        },
+        {
+          "category": "Treatment F",
+          "value": 174
+        },
+        {
+          "category": "Treatment G",
+          "value": 158
+        },
+        {
+          "category": "Treatment H",
+          "value": 295
+        }
+      ]
+    }
+  },
+  "chart_070": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Business Performance Analysis - Grouped_Bar",
+      "chart_type": "grouped_bar",
+      "data": [
+        {
+          "category": "Product A - Series 1",
+          "value": 900
+        },
+        {
+          "category": "Product A - Series 2",
+          "value": 950
+        },
+        {
+          "category": "Product B - Series 1",
+          "value": 950
+        },
+        {
+          "category": "Product B - Series 2",
+          "value": 950
+        },
+        {
+          "category": "Product C - Series 1",
+          "value": 400
+        },
+        {
+          "category": "Product C - Series 2",
+          "value": 450
+        },
+        {
+          "category": "Product D - Series 1",
+          "value": 700
+        },
+        {
+          "category": "Product D - Series 2",
+          "value": 650
+        },
+        {
+          "category": "Product E - Series 1",
+          "value": 500
+        },
+        {
+          "category": "Product E - Series 2",
+          "value": 550
+        },
+        {
+          "category": "Product F - Series 1",
+          "value": 300
+        },
+        {
+          "category": "Product F - Series 2",
+          "value": 250
+        },
+        {
+          "category": "Product G - Series 1",
+          "value": 50
+        },
+        {
+          "category": "Product G - Series 2",
+          "value": 100
+        },
+        {
+          "category": "Product H - Series 1",
+          "value": 900
+        },
+        {
+          "category": "Product H - Series 2",
+          "value": 950
+        },
+        {
+          "category": "Product I - Series 1",
+          "value": 800
+        },
+        {
+          "category": "Product I - Series 2",
+          "value": 850
+        },
+        {
+          "category": "Product J - Series 1",
+          "value": 600
+        },
+        {
+          "category": "Product J - Series 2",
+          "value": 650
+        },
+        {
+          "category": "Product K - Series 1",
+          "value": 500
+        },
+        {
+          "category": "Product K - Series 2",
+          "value": 550
+        },
+        {
+          "category": "Product L - Series 1",
+          "value": 400
+        },
+        {
+          "category": "Product L - Series 2",
+          "value": 450
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the bar heights.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_070.png",
+        "extraction_timestamp": "2025-06-06T23:14:51.605839",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Business Performance Analysis - Grouped_Bar",
+      "chart_type": "grouped_bar",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 892
+        },
+        {
+          "category": "Product B",
+          "value": 938
+        },
+        {
+          "category": "Product C",
+          "value": 195
+        },
+        {
+          "category": "Product D",
+          "value": 676
+        },
+        {
+          "category": "Product E",
+          "value": 402
+        },
+        {
+          "category": "Product F",
+          "value": 478
+        },
+        {
+          "category": "Product G",
+          "value": 40
+        },
+        {
+          "category": "Product H",
+          "value": 794
+        },
+        {
+          "category": "Product I",
+          "value": 658
+        },
+        {
+          "category": "Product J",
+          "value": 387
+        },
+        {
+          "category": "Product K",
+          "value": 461
+        },
+        {
+          "category": "Product L",
+          "value": 330
+        }
+      ]
+    }
+  },
+  "chart_002": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Scientific Measurements - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 90
+        },
+        {
+          "category": "Sample 2",
+          "value": 60
+        },
+        {
+          "category": "Sample 3",
+          "value": 30
+        },
+        {
+          "category": "Sample 4",
+          "value": 100
+        },
+        {
+          "category": "Sample 5",
+          "value": 70
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the area chart's visual representation.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_002.png",
+        "extraction_timestamp": "2025-06-06T23:14:59.636192",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Scientific Measurements - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 93
+        },
+        {
+          "category": "Sample 2",
+          "value": 54
+        },
+        {
+          "category": "Sample 3",
+          "value": 32
+        },
+        {
+          "category": "Sample 4",
+          "value": 98
+        },
+        {
+          "category": "Sample 5",
+          "value": 63
+        }
+      ]
+    }
+  },
+  "chart_060": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Demographic Distribution - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 100
+        },
+        {
+          "category": "Group 2",
+          "value": 200
+        },
+        {
+          "category": "Group 3",
+          "value": 300
+        },
+        {
+          "category": "Group 4",
+          "value": 400
+        },
+        {
+          "category": "Group 5",
+          "value": 100
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the chart's visual representation.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_060.png",
+        "extraction_timestamp": "2025-06-06T23:15:06.247360",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Demographic Distribution - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 102
+        },
+        {
+          "category": "Group 2",
+          "value": 272
+        },
+        {
+          "category": "Group 3",
+          "value": 290
+        },
+        {
+          "category": "Group 4",
+          "value": 432
+        },
+        {
+          "category": "Group 5",
+          "value": 95
+        }
+      ]
+    }
+  },
+  "chart_018": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Scientific Measurements - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 400
+        },
+        {
+          "category": "Sample 2",
+          "value": 800
+        },
+        {
+          "category": "Sample 3",
+          "value": 600
+        },
+        {
+          "category": "Sample 4",
+          "value": 100
+        },
+        {
+          "category": "Sample 5",
+          "value": 300
+        },
+        {
+          "category": "Sample 6",
+          "value": 900
+        },
+        {
+          "category": "Sample 7",
+          "value": 500
+        },
+        {
+          "category": "Sample 8",
+          "value": 200
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the chart's visual representation.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_018.png",
+        "extraction_timestamp": "2025-06-06T23:15:14.736772",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Scientific Measurements - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Sample 1",
+          "value": 384
+        },
+        {
+          "category": "Sample 2",
+          "value": 867
+        },
+        {
+          "category": "Sample 3",
+          "value": 825
+        },
+        {
+          "category": "Sample 4",
+          "value": 114
+        },
+        {
+          "category": "Sample 5",
+          "value": 283
+        },
+        {
+          "category": "Sample 6",
+          "value": 997
+        },
+        {
+          "category": "Sample 7",
+          "value": 371
+        },
+        {
+          "category": "Sample 8",
+          "value": 140
+        }
+      ]
+    }
+  },
+  "chart_061": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Business Performance Analysis - Scatter",
+      "chart_type": "scatter",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 85
+        },
+        {
+          "category": "Product B",
+          "value": 95
+        },
+        {
+          "category": "Product C",
+          "value": 80
+        },
+        {
+          "category": "Product D",
+          "value": 70
+        },
+        {
+          "category": "Product E",
+          "value": 75
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the scatter plot positions.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_061.png",
+        "extraction_timestamp": "2025-06-06T23:15:20.501791",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Business Performance Analysis - Scatter",
+      "chart_type": "scatter",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 87
+        },
+        {
+          "category": "Product B",
+          "value": 94
+        },
+        {
+          "category": "Product C",
+          "value": 71
+        },
+        {
+          "category": "Product D",
+          "value": 68
+        },
+        {
+          "category": "Product E",
+          "value": 79
+        }
+      ]
+    }
+  },
+  "chart_037": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Financial Portfolio Analysis - Scatter",
+      "chart_type": "scatter",
+      "data": [
+        {
+          "category": "Asset A",
+          "value": 100
+        },
+        {
+          "category": "Asset B",
+          "value": 50
+        },
+        {
+          "category": "Asset C",
+          "value": 150
+        },
+        {
+          "category": "Asset D",
+          "value": 75
+        },
+        {
+          "category": "Asset E",
+          "value": 125
+        },
+        {
+          "category": "Asset F",
+          "value": 175
+        },
+        {
+          "category": "Asset G",
+          "value": 400
+        }
+      ],
+      "extraction_confidence": "medium",
+      "notes": "Values are estimated based on the scatter plot positions.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_037.png",
+        "extraction_timestamp": "2025-06-06T23:15:29.173015",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Financial Portfolio Analysis - Scatter",
+      "chart_type": "scatter",
+      "data": [
+        {
+          "category": "Asset A",
+          "value": 78
+        },
+        {
+          "category": "Asset B",
+          "value": 26
+        },
+        {
+          "category": "Asset C",
+          "value": 106
+        },
+        {
+          "category": "Asset D",
+          "value": 91
+        },
+        {
+          "category": "Asset E",
+          "value": 94
+        },
+        {
+          "category": "Asset F",
+          "value": 471
+        },
+        {
+          "category": "Asset G",
+          "value": 96
+        }
+      ]
+    }
+  },
+  "chart_028": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Healthcare Outcomes - Scatter",
+      "chart_type": "scatter",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 1000
+        },
+        {
+          "category": "Treatment B",
+          "value": 600
+        },
+        {
+          "category": "Treatment C",
+          "value": 800
+        },
+        {
+          "category": "Treatment D",
+          "value": 700
+        },
+        {
+          "category": "Treatment E",
+          "value": 500
+        },
+        {
+          "category": "Treatment F",
+          "value": 300
+        },
+        {
+          "category": "Treatment G",
+          "value": 900
+        },
+        {
+          "category": "Treatment H",
+          "value": 750
+        },
+        {
+          "category": "Treatment I",
+          "value": 650
+        },
+        {
+          "category": "Treatment J",
+          "value": 200
+        },
+        {
+          "category": "Treatment K",
+          "value": 950
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Data points are clearly visible and distinct.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_028.png",
+        "extraction_timestamp": "2025-06-06T23:15:37.807613",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Healthcare Outcomes - Scatter",
+      "chart_type": "scatter",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 270
+        },
+        {
+          "category": "Treatment B",
+          "value": 957
+        },
+        {
+          "category": "Treatment C",
+          "value": 619
+        },
+        {
+          "category": "Treatment D",
+          "value": 731
+        },
+        {
+          "category": "Treatment E",
+          "value": 696
+        },
+        {
+          "category": "Treatment F",
+          "value": 119
+        },
+        {
+          "category": "Treatment G",
+          "value": 840
+        },
+        {
+          "category": "Treatment H",
+          "value": 948
+        },
+        {
+          "category": "Treatment I",
+          "value": 820
+        },
+        {
+          "category": "Treatment J",
+          "value": 32
+        },
+        {
+          "category": "Treatment K",
+          "value": 812
+        }
+      ]
+    }
+  },
+  "chart_093": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Healthcare Outcomes - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 17
+        },
+        {
+          "category": "Treatment B",
+          "value": 5
+        },
+        {
+          "category": "Treatment C",
+          "value": 28
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the bar heights.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_093.png",
+        "extraction_timestamp": "2025-06-06T23:15:42.394673",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Healthcare Outcomes - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 62
+        },
+        {
+          "category": "Treatment B",
+          "value": 12
+        },
+        {
+          "category": "Treatment C",
+          "value": 75
+        }
+      ]
+    }
+  },
+  "chart_088": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Healthcare Outcomes - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 500
+        },
+        {
+          "category": "Treatment B",
+          "value": 200
+        },
+        {
+          "category": "Treatment C",
+          "value": 400
+        },
+        {
+          "category": "Treatment D",
+          "value": 300
+        },
+        {
+          "category": "Treatment E",
+          "value": 1000
+        },
+        {
+          "category": "Treatment F",
+          "value": 200
+        },
+        {
+          "category": "Treatment G",
+          "value": 800
+        },
+        {
+          "category": "Treatment H",
+          "value": 600
+        },
+        {
+          "category": "Treatment I",
+          "value": 900
+        },
+        {
+          "category": "Treatment J",
+          "value": 700
+        },
+        {
+          "category": "Treatment K",
+          "value": 800
+        },
+        {
+          "category": "Treatment L",
+          "value": 300
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the chart's visual representation.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_088.png",
+        "extraction_timestamp": "2025-06-06T23:15:52.305716",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Healthcare Outcomes - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 518
+        },
+        {
+          "category": "Treatment B",
+          "value": 174
+        },
+        {
+          "category": "Treatment C",
+          "value": 438
+        },
+        {
+          "category": "Treatment D",
+          "value": 165
+        },
+        {
+          "category": "Treatment E",
+          "value": 991
+        },
+        {
+          "category": "Treatment F",
+          "value": 979
+        },
+        {
+          "category": "Treatment G",
+          "value": 308
+        },
+        {
+          "category": "Treatment H",
+          "value": 495
+        },
+        {
+          "category": "Treatment I",
+          "value": 896
+        },
+        {
+          "category": "Treatment J",
+          "value": 670
+        },
+        {
+          "category": "Treatment K",
+          "value": 880
+        },
+        {
+          "category": "Treatment L",
+          "value": 321
+        }
+      ]
+    }
+  },
+  "chart_029": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Business Performance Analysis - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 25.0
+        },
+        {
+          "category": "Product B",
+          "value": 4.6
+        },
+        {
+          "category": "Product C",
+          "value": 12.0
+        },
+        {
+          "category": "Product D",
+          "value": 5.6
+        },
+        {
+          "category": "Product E",
+          "value": 27.8
+        },
+        {
+          "category": "Product F",
+          "value": 25.0
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "All percentages sum to 100%.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_029.png",
+        "extraction_timestamp": "2025-06-06T23:15:59.360953",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Business Performance Analysis - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 25.0
+        },
+        {
+          "category": "Product B",
+          "value": 4.6
+        },
+        {
+          "category": "Product C",
+          "value": 12.0
+        },
+        {
+          "category": "Product D",
+          "value": 5.6
+        },
+        {
+          "category": "Product E",
+          "value": 27.8
+        },
+        {
+          "category": "Product F",
+          "value": 25.0
+        }
+      ]
+    }
+  },
+  "chart_014": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Financial Portfolio Analysis - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Asset A",
+          "value": 800
+        },
+        {
+          "category": "Asset B",
+          "value": 600
+        },
+        {
+          "category": "Asset C",
+          "value": 100
+        },
+        {
+          "category": "Asset D",
+          "value": 700
+        },
+        {
+          "category": "Asset E",
+          "value": 900
+        },
+        {
+          "category": "Asset F",
+          "value": 500
+        },
+        {
+          "category": "Asset G",
+          "value": 850
+        },
+        {
+          "category": "Asset H",
+          "value": 400
+        },
+        {
+          "category": "Asset I",
+          "value": 800
+        },
+        {
+          "category": "Asset J",
+          "value": 900
+        },
+        {
+          "category": "Asset K",
+          "value": 700
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the chart's grid lines.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_014.png",
+        "extraction_timestamp": "2025-06-06T23:16:08.551520",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Financial Portfolio Analysis - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Asset A",
+          "value": 767
+        },
+        {
+          "category": "Asset B",
+          "value": 675
+        },
+        {
+          "category": "Asset C",
+          "value": 48
+        },
+        {
+          "category": "Asset D",
+          "value": 440
+        },
+        {
+          "category": "Asset E",
+          "value": 881
+        },
+        {
+          "category": "Asset F",
+          "value": 485
+        },
+        {
+          "category": "Asset G",
+          "value": 695
+        },
+        {
+          "category": "Asset H",
+          "value": 950
+        },
+        {
+          "category": "Asset I",
+          "value": 525
+        },
+        {
+          "category": "Asset J",
+          "value": 968
+        },
+        {
+          "category": "Asset K",
+          "value": 662
+        }
+      ]
+    }
+  },
+  "chart_049": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Demographic Distribution - Line",
+      "chart_type": "line",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 30
+        },
+        {
+          "category": "Group 2",
+          "value": 35
+        },
+        {
+          "category": "Group 3",
+          "value": 37
+        },
+        {
+          "category": "Group 4",
+          "value": 38
+        },
+        {
+          "category": "Group 5",
+          "value": 15
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the line chart points.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_049.png",
+        "extraction_timestamp": "2025-06-06T23:16:42.828786",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Demographic Distribution - Line",
+      "chart_type": "line",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 30
+        },
+        {
+          "category": "Group 2",
+          "value": 36
+        },
+        {
+          "category": "Group 3",
+          "value": 38
+        },
+        {
+          "category": "Group 4",
+          "value": 40
+        },
+        {
+          "category": "Group 5",
+          "value": 13
+        }
+      ]
+    }
+  },
+  "chart_022": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Demographic Distribution - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 600
+        },
+        {
+          "category": "Group 2",
+          "value": 400
+        },
+        {
+          "category": "Group 3",
+          "value": 200
+        },
+        {
+          "category": "Group 4",
+          "value": 200
+        },
+        {
+          "category": "Group 5",
+          "value": 300
+        },
+        {
+          "category": "Group 6",
+          "value": 400
+        },
+        {
+          "category": "Group 7",
+          "value": 800
+        },
+        {
+          "category": "Group 8",
+          "value": 500
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the chart's grid lines.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_022.png",
+        "extraction_timestamp": "2025-06-06T23:16:50.741622",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Demographic Distribution - Area",
+      "chart_type": "area",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 570
+        },
+        {
+          "category": "Group 2",
+          "value": 301
+        },
+        {
+          "category": "Group 3",
+          "value": 92
+        },
+        {
+          "category": "Group 4",
+          "value": 95
+        },
+        {
+          "category": "Group 5",
+          "value": 397
+        },
+        {
+          "category": "Group 6",
+          "value": 235
+        },
+        {
+          "category": "Group 7",
+          "value": 833
+        },
+        {
+          "category": "Group 8",
+          "value": 311
+        }
+      ]
+    }
+  },
+  "chart_016": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Healthcare Outcomes - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 750
+        },
+        {
+          "category": "Treatment B",
+          "value": 150
+        },
+        {
+          "category": "Treatment C",
+          "value": 600
+        },
+        {
+          "category": "Treatment D",
+          "value": 400
+        },
+        {
+          "category": "Treatment E",
+          "value": 400
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the visual representation of the stacked bars.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_016.png",
+        "extraction_timestamp": "2025-06-06T23:16:57.070990",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Healthcare Outcomes - Stacked_Bar",
+      "chart_type": "stacked_bar",
+      "data": [
+        {
+          "category": "Treatment A",
+          "value": 479
+        },
+        {
+          "category": "Treatment B",
+          "value": 429
+        },
+        {
+          "category": "Treatment C",
+          "value": 441
+        },
+        {
+          "category": "Treatment D",
+          "value": 363
+        },
+        {
+          "category": "Treatment E",
+          "value": 409
+        }
+      ]
+    }
+  },
+  "chart_050": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Demographic Distribution - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 24.4
+        },
+        {
+          "category": "Group 2",
+          "value": 26.9
+        },
+        {
+          "category": "Group 3",
+          "value": 12.8
+        },
+        {
+          "category": "Group 4",
+          "value": 35.9
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "The percentages sum to 100% as expected for a pie chart.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_050.png",
+        "extraction_timestamp": "2025-06-06T23:17:03.812992",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Demographic Distribution - Pie",
+      "chart_type": "pie",
+      "data": [
+        {
+          "category": "Group 1",
+          "value": 24.4
+        },
+        {
+          "category": "Group 2",
+          "value": 26.9
+        },
+        {
+          "category": "Group 3",
+          "value": 12.8
+        },
+        {
+          "category": "Group 4",
+          "value": 35.9
+        }
+      ]
+    }
+  },
+  "chart_084": {
+    "type": "original",
+    "extracted": {
+      "chart_title": "Business Performance Analysis - Bar",
+      "chart_type": "bar",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 20
+        },
+        {
+          "category": "Product B",
+          "value": 60
+        },
+        {
+          "category": "Product C",
+          "value": 40
+        },
+        {
+          "category": "Product D",
+          "value": 10
+        }
+      ],
+      "extraction_confidence": "high",
+      "notes": "Values are estimated based on the bar heights.",
+      "_metadata": {
+        "image_path": "data/raw_charts/chart_084.png",
+        "extraction_timestamp": "2025-06-06T23:17:10.044231",
+        "model_version": "gpt-4o",
+        "attempt_number": 1
+      }
+    },
+    "ground_truth": {
+      "chart_title": "Business Performance Analysis - Bar",
+      "chart_type": "bar",
+      "data": [
+        {
+          "category": "Product A",
+          "value": 22
+        },
+        {
+          "category": "Product B",
+          "value": 64
+        },
+        {
+          "category": "Product C",
+          "value": 27
+        },
+        {
+          "category": "Product D",
+          "value": 11
+        }
+      ]
+    }
+  }
+}

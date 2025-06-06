@@ -1,0 +1,54 @@
+{
+  "chart_title": "Healthcare Outcomes - Stacked_Bar",
+  "chart_type": "stacked_bar",
+  "data": [
+    {
+      "category": "Treatment A",
+      "value": 300
+    },
+    {
+      "category": "Treatment B",
+      "value": 1200
+    },
+    {
+      "category": "Treatment C",
+      "value": 1100
+    },
+    {
+      "category": "Treatment D",
+      "value": 1400
+    },
+    {
+      "category": "Treatment E",
+      "value": 600
+    },
+    {
+      "category": "Treatment F",
+      "value": 1000
+    },
+    {
+      "category": "Treatment G",
+      "value": 1300
+    },
+    {
+      "category": "Treatment H",
+      "value": 1100
+    },
+    {
+      "category": "Treatment I",
+      "value": 300
+    },
+    {
+      "category": "Treatment J",
+      "value": 1200
+    }
+  ],
+  "extraction_confidence": "medium",
+  "notes": "Values are estimated based on visual inspection of the chart.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_059.png",
+    "extraction_timestamp": "2025-06-06T23:14:12.140292",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

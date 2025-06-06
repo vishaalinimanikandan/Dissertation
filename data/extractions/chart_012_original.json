@@ -1,0 +1,26 @@
+{
+  "chart_title": "Demographic Distribution - Stacked_Bar",
+  "chart_type": "stacked_bar",
+  "data": [
+    {
+      "category": "Group 1",
+      "value": 15
+    },
+    {
+      "category": "Group 2",
+      "value": 25
+    },
+    {
+      "category": "Group 3",
+      "value": 18
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the bar heights.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_012.png",
+    "extraction_timestamp": "2025-06-06T23:13:58.267904",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "chart_title": "Financial Portfolio Analysis - Bar",
+  "chart_type": "bar",
+  "data": [
+    {
+      "category": "Asset A",
+      "value": 200
+    },
+    {
+      "category": "Asset B",
+      "value": 275
+    },
+    {
+      "category": "Asset C",
+      "value": 300
+    },
+    {
+      "category": "Asset D",
+      "value": 250
+    },
+    {
+      "category": "Asset E",
+      "value": 125
+    },
+    {
+      "category": "Asset F",
+      "value": 225
+    },
+    {
+      "category": "Asset G",
+      "value": 100
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the bar heights relative to the y-axis.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_046.png",
+    "extraction_timestamp": "2025-06-06T23:12:55.977677",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

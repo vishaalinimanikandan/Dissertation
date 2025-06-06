@@ -1,0 +1,30 @@
+{
+  "chart_title": "Business Performance Analysis - Bar",
+  "chart_type": "bar",
+  "data": [
+    {
+      "category": "Product A",
+      "value": 20
+    },
+    {
+      "category": "Product B",
+      "value": 60
+    },
+    {
+      "category": "Product C",
+      "value": 40
+    },
+    {
+      "category": "Product D",
+      "value": 10
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the bar heights.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_084.png",
+    "extraction_timestamp": "2025-06-06T23:17:10.044231",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

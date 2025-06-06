@@ -1,0 +1,34 @@
+{
+  "chart_title": "Demographic Distribution - Line",
+  "chart_type": "line",
+  "data": [
+    {
+      "category": "Group 1",
+      "value": 30
+    },
+    {
+      "category": "Group 2",
+      "value": 35
+    },
+    {
+      "category": "Group 3",
+      "value": 37
+    },
+    {
+      "category": "Group 4",
+      "value": 38
+    },
+    {
+      "category": "Group 5",
+      "value": 15
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the line chart points.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_049.png",
+    "extraction_timestamp": "2025-06-06T23:16:42.828786",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

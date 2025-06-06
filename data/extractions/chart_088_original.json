@@ -1,0 +1,62 @@
+{
+  "chart_title": "Healthcare Outcomes - Area",
+  "chart_type": "area",
+  "data": [
+    {
+      "category": "Treatment A",
+      "value": 500
+    },
+    {
+      "category": "Treatment B",
+      "value": 200
+    },
+    {
+      "category": "Treatment C",
+      "value": 400
+    },
+    {
+      "category": "Treatment D",
+      "value": 300
+    },
+    {
+      "category": "Treatment E",
+      "value": 1000
+    },
+    {
+      "category": "Treatment F",
+      "value": 200
+    },
+    {
+      "category": "Treatment G",
+      "value": 800
+    },
+    {
+      "category": "Treatment H",
+      "value": 600
+    },
+    {
+      "category": "Treatment I",
+      "value": 900
+    },
+    {
+      "category": "Treatment J",
+      "value": 700
+    },
+    {
+      "category": "Treatment K",
+      "value": 800
+    },
+    {
+      "category": "Treatment L",
+      "value": 300
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the chart's visual representation.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_088.png",
+    "extraction_timestamp": "2025-06-06T23:15:52.305716",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

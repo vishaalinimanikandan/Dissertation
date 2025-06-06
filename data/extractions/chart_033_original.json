@@ -1,0 +1,62 @@
+{
+  "chart_title": "Scientific Measurements - Line",
+  "chart_type": "line",
+  "data": [
+    {
+      "category": "Sample 1",
+      "value": 60
+    },
+    {
+      "category": "Sample 2",
+      "value": 62
+    },
+    {
+      "category": "Sample 3",
+      "value": 65
+    },
+    {
+      "category": "Sample 4",
+      "value": 65
+    },
+    {
+      "category": "Sample 5",
+      "value": 80
+    },
+    {
+      "category": "Sample 6",
+      "value": 75
+    },
+    {
+      "category": "Sample 7",
+      "value": 90
+    },
+    {
+      "category": "Sample 8",
+      "value": 85
+    },
+    {
+      "category": "Sample 9",
+      "value": 100
+    },
+    {
+      "category": "Sample 10",
+      "value": 140
+    },
+    {
+      "category": "Sample 11",
+      "value": 130
+    },
+    {
+      "category": "Sample 12",
+      "value": 60
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the line chart.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_033.png",
+    "extraction_timestamp": "2025-06-06T23:13:51.643917",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

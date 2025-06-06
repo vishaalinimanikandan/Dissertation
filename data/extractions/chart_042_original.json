@@ -1,0 +1,34 @@
+{
+  "chart_title": "Scientific Measurements - Bar",
+  "chart_type": "bar",
+  "data": [
+    {
+      "category": "Sample 1",
+      "value": 10
+    },
+    {
+      "category": "Sample 2",
+      "value": 20
+    },
+    {
+      "category": "Sample 3",
+      "value": 30
+    },
+    {
+      "category": "Sample 4",
+      "value": 35
+    },
+    {
+      "category": "Sample 5",
+      "value": 45
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the bar heights.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_042.png",
+    "extraction_timestamp": "2025-06-06T23:12:48.043799",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

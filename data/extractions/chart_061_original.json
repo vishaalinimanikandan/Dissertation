@@ -1,0 +1,34 @@
+{
+  "chart_title": "Business Performance Analysis - Scatter",
+  "chart_type": "scatter",
+  "data": [
+    {
+      "category": "Product A",
+      "value": 85
+    },
+    {
+      "category": "Product B",
+      "value": 95
+    },
+    {
+      "category": "Product C",
+      "value": 80
+    },
+    {
+      "category": "Product D",
+      "value": 70
+    },
+    {
+      "category": "Product E",
+      "value": 75
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the scatter plot positions.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_061.png",
+    "extraction_timestamp": "2025-06-06T23:15:20.501791",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

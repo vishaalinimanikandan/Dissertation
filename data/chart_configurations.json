@@ -1,0 +1,2394 @@
+[
+  {
+    "id": "chart_000",
+    "category": "business",
+    "type": "grouped_bar",
+    "complexity": "medium",
+    "title": "Business Performance Analysis - Grouped_Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F"
+    ],
+    "values": [
+      264,
+      454,
+      104,
+      378,
+      442,
+      85
+    ]
+  },
+  {
+    "id": "chart_001",
+    "category": "healthcare",
+    "type": "bar",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H",
+      "Treatment I"
+    ],
+    "values": [
+      362,
+      697,
+      779,
+      627,
+      843,
+      430,
+      608,
+      498,
+      708
+    ]
+  },
+  {
+    "id": "chart_002",
+    "category": "scientific",
+    "type": "area",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Area",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5"
+    ],
+    "values": [
+      93,
+      54,
+      32,
+      98,
+      63
+    ]
+  },
+  {
+    "id": "chart_003",
+    "category": "demographic",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Stacked_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7",
+      "Group 8"
+    ],
+    "values": [
+      340,
+      247,
+      261,
+      455,
+      453,
+      34,
+      320,
+      445
+    ]
+  },
+  {
+    "id": "chart_004",
+    "category": "business",
+    "type": "scatter",
+    "complexity": "complex",
+    "title": "Business Performance Analysis - Scatter",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F",
+      "Product G",
+      "Product H",
+      "Product I",
+      "Product J"
+    ],
+    "values": [
+      554,
+      713,
+      918,
+      904,
+      696,
+      391,
+      206,
+      296,
+      742,
+      626
+    ]
+  },
+  {
+    "id": "chart_005",
+    "category": "financial",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Financial Portfolio Analysis - Line",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D"
+    ],
+    "values": [
+      91,
+      81,
+      86,
+      106
+    ]
+  },
+  {
+    "id": "chart_006",
+    "category": "healthcare",
+    "type": "pie",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Pie",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H",
+      "Treatment I",
+      "Treatment J",
+      "Treatment K"
+    ],
+    "values": [
+      14.4,
+      4.8,
+      4.8,
+      3.7,
+      8.0,
+      4.3,
+      14.4,
+      3.2,
+      13.4,
+      12.8,
+      16.0
+    ]
+  },
+  {
+    "id": "chart_007",
+    "category": "demographic",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Line",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3"
+    ],
+    "values": [
+      54,
+      39,
+      34
+    ]
+  },
+  {
+    "id": "chart_008",
+    "category": "scientific",
+    "type": "bar",
+    "complexity": "medium",
+    "title": "Scientific Measurements - Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6"
+    ],
+    "values": [
+      249,
+      151,
+      151,
+      231,
+      451,
+      280
+    ]
+  },
+  {
+    "id": "chart_009",
+    "category": "scientific",
+    "type": "stacked_bar",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Stacked_Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5"
+    ],
+    "values": [
+      74,
+      40,
+      65,
+      69,
+      71
+    ]
+  },
+  {
+    "id": "chart_010",
+    "category": "financial",
+    "type": "scatter",
+    "complexity": "simple",
+    "title": "Financial Portfolio Analysis - Scatter",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E"
+    ],
+    "values": [
+      79,
+      28,
+      20,
+      68,
+      79
+    ]
+  },
+  {
+    "id": "chart_011",
+    "category": "scientific",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Line",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4"
+    ],
+    "values": [
+      75,
+      71,
+      75,
+      83
+    ]
+  },
+  {
+    "id": "chart_012",
+    "category": "demographic",
+    "type": "stacked_bar",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Stacked_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3"
+    ],
+    "values": [
+      24,
+      36,
+      37
+    ]
+  },
+  {
+    "id": "chart_013",
+    "category": "demographic",
+    "type": "grouped_bar",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Grouped_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5"
+    ],
+    "values": [
+      36,
+      106,
+      396,
+      21,
+      384
+    ]
+  },
+  {
+    "id": "chart_014",
+    "category": "financial",
+    "type": "area",
+    "complexity": "complex",
+    "title": "Financial Portfolio Analysis - Area",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F",
+      "Asset G",
+      "Asset H",
+      "Asset I",
+      "Asset J",
+      "Asset K"
+    ],
+    "values": [
+      767,
+      675,
+      48,
+      440,
+      881,
+      485,
+      695,
+      950,
+      525,
+      968,
+      662
+    ]
+  },
+  {
+    "id": "chart_015",
+    "category": "demographic",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Stacked_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7"
+    ],
+    "values": [
+      416,
+      131,
+      146,
+      240,
+      21,
+      208,
+      274
+    ]
+  },
+  {
+    "id": "chart_016",
+    "category": "healthcare",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Stacked_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E"
+    ],
+    "values": [
+      479,
+      429,
+      441,
+      363,
+      409
+    ]
+  },
+  {
+    "id": "chart_017",
+    "category": "business",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Business Performance Analysis - Stacked_Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F",
+      "Product G",
+      "Product H"
+    ],
+    "values": [
+      378,
+      53,
+      351,
+      403,
+      269,
+      428,
+      456,
+      24
+    ]
+  },
+  {
+    "id": "chart_018",
+    "category": "scientific",
+    "type": "area",
+    "complexity": "complex",
+    "title": "Scientific Measurements - Area",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6",
+      "Sample 7",
+      "Sample 8"
+    ],
+    "values": [
+      384,
+      867,
+      825,
+      114,
+      283,
+      997,
+      371,
+      140
+    ]
+  },
+  {
+    "id": "chart_019",
+    "category": "scientific",
+    "type": "stacked_bar",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Stacked_Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3"
+    ],
+    "values": [
+      82,
+      46,
+      20
+    ]
+  },
+  {
+    "id": "chart_020",
+    "category": "healthcare",
+    "type": "grouped_bar",
+    "complexity": "simple",
+    "title": "Healthcare Outcomes - Grouped_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E"
+    ],
+    "values": [
+      86,
+      90,
+      17,
+      77,
+      81
+    ]
+  },
+  {
+    "id": "chart_021",
+    "category": "healthcare",
+    "type": "line",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Line",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H"
+    ],
+    "values": [
+      394,
+      383,
+      378,
+      378,
+      385,
+      356,
+      455,
+      392
+    ]
+  },
+  {
+    "id": "chart_022",
+    "category": "demographic",
+    "type": "area",
+    "complexity": "complex",
+    "title": "Demographic Distribution - Area",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7",
+      "Group 8"
+    ],
+    "values": [
+      570,
+      301,
+      92,
+      95,
+      397,
+      235,
+      833,
+      311
+    ]
+  },
+  {
+    "id": "chart_023",
+    "category": "scientific",
+    "type": "line",
+    "complexity": "complex",
+    "title": "Scientific Measurements - Line",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6",
+      "Sample 7",
+      "Sample 8",
+      "Sample 9",
+      "Sample 10",
+      "Sample 11"
+    ],
+    "values": [
+      598,
+      603,
+      588,
+      608,
+      616,
+      643,
+      575,
+      659,
+      671,
+      570,
+      666
+    ]
+  },
+  {
+    "id": "chart_024",
+    "category": "financial",
+    "type": "stacked_bar",
+    "complexity": "complex",
+    "title": "Financial Portfolio Analysis - Stacked_Bar",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F",
+      "Asset G",
+      "Asset H"
+    ],
+    "values": [
+      638,
+      167,
+      310,
+      36,
+      845,
+      654,
+      256,
+      512
+    ]
+  },
+  {
+    "id": "chart_025",
+    "category": "demographic",
+    "type": "line",
+    "complexity": "complex",
+    "title": "Demographic Distribution - Line",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7",
+      "Group 8",
+      "Group 9",
+      "Group 10",
+      "Group 11"
+    ],
+    "values": [
+      422,
+      429,
+      437,
+      418,
+      407,
+      443,
+      457,
+      444,
+      390,
+      376,
+      463
+    ]
+  },
+  {
+    "id": "chart_026",
+    "category": "financial",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Financial Portfolio Analysis - Line",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C"
+    ],
+    "values": [
+      62,
+      61,
+      76
+    ]
+  },
+  {
+    "id": "chart_027",
+    "category": "business",
+    "type": "area",
+    "complexity": "complex",
+    "title": "Business Performance Analysis - Area",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F",
+      "Product G",
+      "Product H",
+      "Product I",
+      "Product J",
+      "Product K",
+      "Product L"
+    ],
+    "values": [
+      242,
+      24,
+      756,
+      184,
+      95,
+      507,
+      473,
+      283,
+      592,
+      147,
+      960,
+      610
+    ]
+  },
+  {
+    "id": "chart_028",
+    "category": "healthcare",
+    "type": "scatter",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Scatter",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H",
+      "Treatment I",
+      "Treatment J",
+      "Treatment K"
+    ],
+    "values": [
+      270,
+      957,
+      619,
+      731,
+      696,
+      119,
+      840,
+      948,
+      820,
+      32,
+      812
+    ]
+  },
+  {
+    "id": "chart_029",
+    "category": "business",
+    "type": "pie",
+    "complexity": "medium",
+    "title": "Business Performance Analysis - Pie",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F"
+    ],
+    "values": [
+      25.0,
+      4.6,
+      12.0,
+      5.6,
+      27.8,
+      25.0
+    ]
+  },
+  {
+    "id": "chart_030",
+    "category": "financial",
+    "type": "pie",
+    "complexity": "medium",
+    "title": "Financial Portfolio Analysis - Pie",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F"
+    ],
+    "values": [
+      17.6,
+      4.2,
+      15.1,
+      21.0,
+      19.3,
+      22.7
+    ]
+  },
+  {
+    "id": "chart_031",
+    "category": "healthcare",
+    "type": "line",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Line",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G"
+    ],
+    "values": [
+      102,
+      122,
+      126,
+      99,
+      133,
+      143,
+      77
+    ]
+  },
+  {
+    "id": "chart_032",
+    "category": "business",
+    "type": "pie",
+    "complexity": "simple",
+    "title": "Business Performance Analysis - Pie",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D"
+    ],
+    "values": [
+      22.5,
+      29.6,
+      15.5,
+      32.4
+    ]
+  },
+  {
+    "id": "chart_033",
+    "category": "scientific",
+    "type": "line",
+    "complexity": "complex",
+    "title": "Scientific Measurements - Line",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6",
+      "Sample 7",
+      "Sample 8",
+      "Sample 9",
+      "Sample 10",
+      "Sample 11",
+      "Sample 12"
+    ],
+    "values": [
+      58,
+      59,
+      67,
+      69,
+      68,
+      95,
+      85,
+      110,
+      106,
+      146,
+      138,
+      66
+    ]
+  },
+  {
+    "id": "chart_034",
+    "category": "healthcare",
+    "type": "bar",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H"
+    ],
+    "values": [
+      746,
+      815,
+      160,
+      857,
+      412,
+      154,
+      941,
+      573
+    ]
+  },
+  {
+    "id": "chart_035",
+    "category": "healthcare",
+    "type": "bar",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F"
+    ],
+    "values": [
+      324,
+      350,
+      398,
+      350,
+      351,
+      410
+    ]
+  },
+  {
+    "id": "chart_036",
+    "category": "scientific",
+    "type": "grouped_bar",
+    "complexity": "medium",
+    "title": "Scientific Measurements - Grouped_Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5"
+    ],
+    "values": [
+      288,
+      222,
+      220,
+      290,
+      412
+    ]
+  },
+  {
+    "id": "chart_037",
+    "category": "financial",
+    "type": "scatter",
+    "complexity": "medium",
+    "title": "Financial Portfolio Analysis - Scatter",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F",
+      "Asset G"
+    ],
+    "values": [
+      78,
+      26,
+      106,
+      91,
+      94,
+      471,
+      96
+    ]
+  },
+  {
+    "id": "chart_038",
+    "category": "financial",
+    "type": "scatter",
+    "complexity": "medium",
+    "title": "Financial Portfolio Analysis - Scatter",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E"
+    ],
+    "values": [
+      194,
+      288,
+      164,
+      243,
+      124
+    ]
+  },
+  {
+    "id": "chart_039",
+    "category": "demographic",
+    "type": "area",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Area",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7"
+    ],
+    "values": [
+      277,
+      71,
+      491,
+      409,
+      438,
+      181,
+      283
+    ]
+  },
+  {
+    "id": "chart_040",
+    "category": "demographic",
+    "type": "line",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Line",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7",
+      "Group 8"
+    ],
+    "values": [
+      109,
+      114,
+      111,
+      96,
+      98,
+      107,
+      157,
+      187
+    ]
+  },
+  {
+    "id": "chart_041",
+    "category": "healthcare",
+    "type": "area",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Area",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E"
+    ],
+    "values": [
+      455,
+      237,
+      101,
+      136,
+      338
+    ]
+  },
+  {
+    "id": "chart_042",
+    "category": "scientific",
+    "type": "bar",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5"
+    ],
+    "values": [
+      12,
+      21,
+      34,
+      38,
+      46
+    ]
+  },
+  {
+    "id": "chart_043",
+    "category": "demographic",
+    "type": "line",
+    "complexity": "complex",
+    "title": "Demographic Distribution - Line",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7",
+      "Group 8"
+    ],
+    "values": [
+      107,
+      109,
+      109,
+      125,
+      106,
+      153,
+      144,
+      110
+    ]
+  },
+  {
+    "id": "chart_044",
+    "category": "scientific",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Line",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4"
+    ],
+    "values": [
+      50,
+      42,
+      71,
+      45
+    ]
+  },
+  {
+    "id": "chart_045",
+    "category": "business",
+    "type": "area",
+    "complexity": "complex",
+    "title": "Business Performance Analysis - Area",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F",
+      "Product G",
+      "Product H"
+    ],
+    "values": [
+      219,
+      832,
+      113,
+      266,
+      36,
+      386,
+      74,
+      626
+    ]
+  },
+  {
+    "id": "chart_046",
+    "category": "financial",
+    "type": "bar",
+    "complexity": "medium",
+    "title": "Financial Portfolio Analysis - Bar",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F",
+      "Asset G"
+    ],
+    "values": [
+      192,
+      282,
+      298,
+      257,
+      72,
+      168,
+      34
+    ]
+  },
+  {
+    "id": "chart_047",
+    "category": "scientific",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Line",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5"
+    ],
+    "values": [
+      49,
+      54,
+      62,
+      33,
+      79
+    ]
+  },
+  {
+    "id": "chart_048",
+    "category": "scientific",
+    "type": "area",
+    "complexity": "medium",
+    "title": "Scientific Measurements - Area",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5"
+    ],
+    "values": [
+      301,
+      227,
+      487,
+      186,
+      429
+    ]
+  },
+  {
+    "id": "chart_049",
+    "category": "demographic",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Line",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5"
+    ],
+    "values": [
+      30,
+      36,
+      38,
+      40,
+      13
+    ]
+  },
+  {
+    "id": "chart_050",
+    "category": "demographic",
+    "type": "pie",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Pie",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4"
+    ],
+    "values": [
+      24.4,
+      26.9,
+      12.8,
+      35.9
+    ]
+  },
+  {
+    "id": "chart_051",
+    "category": "business",
+    "type": "grouped_bar",
+    "complexity": "complex",
+    "title": "Business Performance Analysis - Grouped_Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F",
+      "Product G",
+      "Product H",
+      "Product I",
+      "Product J"
+    ],
+    "values": [
+      294,
+      851,
+      57,
+      446,
+      930,
+      463,
+      948,
+      551,
+      266,
+      81
+    ]
+  },
+  {
+    "id": "chart_052",
+    "category": "financial",
+    "type": "line",
+    "complexity": "medium",
+    "title": "Financial Portfolio Analysis - Line",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F",
+      "Asset G",
+      "Asset H"
+    ],
+    "values": [
+      398,
+      418,
+      400,
+      429,
+      379,
+      437,
+      391,
+      386
+    ]
+  },
+  {
+    "id": "chart_053",
+    "category": "demographic",
+    "type": "stacked_bar",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Stacked_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4"
+    ],
+    "values": [
+      98,
+      55,
+      89,
+      94
+    ]
+  },
+  {
+    "id": "chart_054",
+    "category": "demographic",
+    "type": "pie",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Pie",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6"
+    ],
+    "values": [
+      24.1,
+      9.6,
+      28.9,
+      10.8,
+      16.9,
+      9.6
+    ]
+  },
+  {
+    "id": "chart_055",
+    "category": "healthcare",
+    "type": "bar",
+    "complexity": "simple",
+    "title": "Healthcare Outcomes - Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C"
+    ],
+    "values": [
+      64,
+      54,
+      95
+    ]
+  },
+  {
+    "id": "chart_056",
+    "category": "healthcare",
+    "type": "pie",
+    "complexity": "simple",
+    "title": "Healthcare Outcomes - Pie",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C"
+    ],
+    "values": [
+      45.3,
+      40.6,
+      14.1
+    ]
+  },
+  {
+    "id": "chart_057",
+    "category": "financial",
+    "type": "pie",
+    "complexity": "simple",
+    "title": "Financial Portfolio Analysis - Pie",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E"
+    ],
+    "values": [
+      23.3,
+      18.1,
+      11.2,
+      25.9,
+      21.6
+    ]
+  },
+  {
+    "id": "chart_058",
+    "category": "demographic",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Line",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5"
+    ],
+    "values": [
+      78,
+      82,
+      62,
+      100,
+      87
+    ]
+  },
+  {
+    "id": "chart_059",
+    "category": "healthcare",
+    "type": "stacked_bar",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Stacked_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H",
+      "Treatment I",
+      "Treatment J"
+    ],
+    "values": [
+      184,
+      628,
+      706,
+      789,
+      338,
+      567,
+      609,
+      945,
+      89,
+      736
+    ]
+  },
+  {
+    "id": "chart_060",
+    "category": "demographic",
+    "type": "area",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Area",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5"
+    ],
+    "values": [
+      102,
+      272,
+      290,
+      432,
+      95
+    ]
+  },
+  {
+    "id": "chart_061",
+    "category": "business",
+    "type": "scatter",
+    "complexity": "simple",
+    "title": "Business Performance Analysis - Scatter",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E"
+    ],
+    "values": [
+      87,
+      94,
+      71,
+      68,
+      79
+    ]
+  },
+  {
+    "id": "chart_062",
+    "category": "business",
+    "type": "scatter",
+    "complexity": "simple",
+    "title": "Business Performance Analysis - Scatter",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C"
+    ],
+    "values": [
+      75,
+      83,
+      61
+    ]
+  },
+  {
+    "id": "chart_063",
+    "category": "financial",
+    "type": "grouped_bar",
+    "complexity": "simple",
+    "title": "Financial Portfolio Analysis - Grouped_Bar",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D"
+    ],
+    "values": [
+      13,
+      47,
+      23,
+      13
+    ]
+  },
+  {
+    "id": "chart_064",
+    "category": "business",
+    "type": "line",
+    "complexity": "simple",
+    "title": "Business Performance Analysis - Line",
+    "categories": [
+      "Q1 2023",
+      "Q2 2023",
+      "Q3 2023",
+      "Q4 2023"
+    ],
+    "values": [
+      73,
+      50,
+      68,
+      79
+    ]
+  },
+  {
+    "id": "chart_065",
+    "category": "business",
+    "type": "stacked_bar",
+    "complexity": "complex",
+    "title": "Business Performance Analysis - Stacked_Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F",
+      "Product G",
+      "Product H"
+    ],
+    "values": [
+      601,
+      60,
+      450,
+      269,
+      676,
+      410,
+      728,
+      426
+    ]
+  },
+  {
+    "id": "chart_066",
+    "category": "demographic",
+    "type": "stacked_bar",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Stacked_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3"
+    ],
+    "values": [
+      94,
+      97,
+      96
+    ]
+  },
+  {
+    "id": "chart_067",
+    "category": "business",
+    "type": "stacked_bar",
+    "complexity": "simple",
+    "title": "Business Performance Analysis - Stacked_Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C"
+    ],
+    "values": [
+      99,
+      39,
+      52
+    ]
+  },
+  {
+    "id": "chart_068",
+    "category": "scientific",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Scientific Measurements - Stacked_Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6",
+      "Sample 7"
+    ],
+    "values": [
+      373,
+      453,
+      244,
+      482,
+      482,
+      31,
+      230
+    ]
+  },
+  {
+    "id": "chart_069",
+    "category": "business",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Business Performance Analysis - Stacked_Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F",
+      "Product G",
+      "Product H"
+    ],
+    "values": [
+      66,
+      431,
+      104,
+      87,
+      14,
+      182,
+      178,
+      476
+    ]
+  },
+  {
+    "id": "chart_070",
+    "category": "business",
+    "type": "grouped_bar",
+    "complexity": "complex",
+    "title": "Business Performance Analysis - Grouped_Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F",
+      "Product G",
+      "Product H",
+      "Product I",
+      "Product J",
+      "Product K",
+      "Product L"
+    ],
+    "values": [
+      892,
+      938,
+      195,
+      676,
+      402,
+      478,
+      40,
+      794,
+      658,
+      387,
+      461,
+      330
+    ]
+  },
+  {
+    "id": "chart_071",
+    "category": "financial",
+    "type": "line",
+    "complexity": "complex",
+    "title": "Financial Portfolio Analysis - Line",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F",
+      "Asset G",
+      "Asset H",
+      "Asset I"
+    ],
+    "values": [
+      912,
+      891,
+      896,
+      914,
+      902,
+      927,
+      945,
+      983,
+      954
+    ]
+  },
+  {
+    "id": "chart_072",
+    "category": "demographic",
+    "type": "area",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Area",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3"
+    ],
+    "values": [
+      71,
+      28,
+      94
+    ]
+  },
+  {
+    "id": "chart_073",
+    "category": "business",
+    "type": "pie",
+    "complexity": "simple",
+    "title": "Business Performance Analysis - Pie",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C"
+    ],
+    "values": [
+      28.3,
+      26.4,
+      45.3
+    ]
+  },
+  {
+    "id": "chart_074",
+    "category": "demographic",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Stacked_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7"
+    ],
+    "values": [
+      79,
+      177,
+      310,
+      118,
+      297,
+      114,
+      283
+    ]
+  },
+  {
+    "id": "chart_075",
+    "category": "scientific",
+    "type": "grouped_bar",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Grouped_Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4"
+    ],
+    "values": [
+      35,
+      33,
+      85,
+      17
+    ]
+  },
+  {
+    "id": "chart_076",
+    "category": "financial",
+    "type": "area",
+    "complexity": "medium",
+    "title": "Financial Portfolio Analysis - Area",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F"
+    ],
+    "values": [
+      366,
+      196,
+      5,
+      320,
+      150,
+      170
+    ]
+  },
+  {
+    "id": "chart_077",
+    "category": "scientific",
+    "type": "scatter",
+    "complexity": "complex",
+    "title": "Scientific Measurements - Scatter",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6",
+      "Sample 7",
+      "Sample 8"
+    ],
+    "values": [
+      399,
+      168,
+      471,
+      988,
+      526,
+      119,
+      956,
+      994
+    ]
+  },
+  {
+    "id": "chart_078",
+    "category": "healthcare",
+    "type": "stacked_bar",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Stacked_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H"
+    ],
+    "values": [
+      493,
+      826,
+      106,
+      904,
+      932,
+      51,
+      77,
+      610
+    ]
+  },
+  {
+    "id": "chart_079",
+    "category": "financial",
+    "type": "line",
+    "complexity": "complex",
+    "title": "Financial Portfolio Analysis - Line",
+    "categories": [
+      "Asset A",
+      "Asset B",
+      "Asset C",
+      "Asset D",
+      "Asset E",
+      "Asset F",
+      "Asset G",
+      "Asset H",
+      "Asset I"
+    ],
+    "values": [
+      870,
+      860,
+      865,
+      893,
+      863,
+      829,
+      921,
+      881,
+      862
+    ]
+  },
+  {
+    "id": "chart_080",
+    "category": "demographic",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Stacked_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5"
+    ],
+    "values": [
+      144,
+      218,
+      451,
+      385,
+      420
+    ]
+  },
+  {
+    "id": "chart_081",
+    "category": "scientific",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Scientific Measurements - Stacked_Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6",
+      "Sample 7",
+      "Sample 8"
+    ],
+    "values": [
+      54,
+      430,
+      13,
+      330,
+      258,
+      497,
+      34,
+      314
+    ]
+  },
+  {
+    "id": "chart_082",
+    "category": "business",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Business Performance Analysis - Stacked_Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D",
+      "Product E",
+      "Product F"
+    ],
+    "values": [
+      66,
+      392,
+      440,
+      381,
+      47,
+      289
+    ]
+  },
+  {
+    "id": "chart_083",
+    "category": "healthcare",
+    "type": "bar",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H"
+    ],
+    "values": [
+      239,
+      111,
+      116,
+      344,
+      302,
+      427,
+      46,
+      279
+    ]
+  },
+  {
+    "id": "chart_084",
+    "category": "business",
+    "type": "bar",
+    "complexity": "simple",
+    "title": "Business Performance Analysis - Bar",
+    "categories": [
+      "Product A",
+      "Product B",
+      "Product C",
+      "Product D"
+    ],
+    "values": [
+      22,
+      64,
+      27,
+      11
+    ]
+  },
+  {
+    "id": "chart_085",
+    "category": "scientific",
+    "type": "grouped_bar",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Grouped_Bar",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4"
+    ],
+    "values": [
+      59,
+      75,
+      16,
+      22
+    ]
+  },
+  {
+    "id": "chart_086",
+    "category": "demographic",
+    "type": "pie",
+    "complexity": "simple",
+    "title": "Demographic Distribution - Pie",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3"
+    ],
+    "values": [
+      33.3,
+      40.9,
+      25.8
+    ]
+  },
+  {
+    "id": "chart_087",
+    "category": "healthcare",
+    "type": "scatter",
+    "complexity": "simple",
+    "title": "Healthcare Outcomes - Scatter",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C"
+    ],
+    "values": [
+      65,
+      15,
+      19
+    ]
+  },
+  {
+    "id": "chart_088",
+    "category": "healthcare",
+    "type": "area",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Area",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H",
+      "Treatment I",
+      "Treatment J",
+      "Treatment K",
+      "Treatment L"
+    ],
+    "values": [
+      518,
+      174,
+      438,
+      165,
+      991,
+      979,
+      308,
+      495,
+      896,
+      670,
+      880,
+      321
+    ]
+  },
+  {
+    "id": "chart_089",
+    "category": "healthcare",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Stacked_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F"
+    ],
+    "values": [
+      169,
+      93,
+      77,
+      170,
+      63,
+      28
+    ]
+  },
+  {
+    "id": "chart_090",
+    "category": "scientific",
+    "type": "pie",
+    "complexity": "medium",
+    "title": "Scientific Measurements - Pie",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6"
+    ],
+    "values": [
+      7.3,
+      8.5,
+      31.7,
+      14.6,
+      6.1,
+      31.7
+    ]
+  },
+  {
+    "id": "chart_091",
+    "category": "demographic",
+    "type": "stacked_bar",
+    "complexity": "medium",
+    "title": "Demographic Distribution - Stacked_Bar",
+    "categories": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4",
+      "Group 5",
+      "Group 6",
+      "Group 7"
+    ],
+    "values": [
+      197,
+      217,
+      285,
+      204,
+      89,
+      32,
+      107
+    ]
+  },
+  {
+    "id": "chart_092",
+    "category": "scientific",
+    "type": "scatter",
+    "complexity": "simple",
+    "title": "Scientific Measurements - Scatter",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4"
+    ],
+    "values": [
+      82,
+      88,
+      93,
+      97
+    ]
+  },
+  {
+    "id": "chart_093",
+    "category": "healthcare",
+    "type": "stacked_bar",
+    "complexity": "simple",
+    "title": "Healthcare Outcomes - Stacked_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C"
+    ],
+    "values": [
+      62,
+      12,
+      75
+    ]
+  },
+  {
+    "id": "chart_094",
+    "category": "healthcare",
+    "type": "grouped_bar",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Grouped_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F"
+    ],
+    "values": [
+      482,
+      199,
+      267,
+      188,
+      64,
+      377
+    ]
+  },
+  {
+    "id": "chart_095",
+    "category": "healthcare",
+    "type": "stacked_bar",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Stacked_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H",
+      "Treatment I",
+      "Treatment J",
+      "Treatment K",
+      "Treatment L"
+    ],
+    "values": [
+      334,
+      975,
+      865,
+      119,
+      973,
+      698,
+      424,
+      556,
+      13,
+      550,
+      763,
+      404
+    ]
+  },
+  {
+    "id": "chart_096",
+    "category": "healthcare",
+    "type": "stacked_bar",
+    "complexity": "complex",
+    "title": "Healthcare Outcomes - Stacked_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H",
+      "Treatment I",
+      "Treatment J",
+      "Treatment K",
+      "Treatment L"
+    ],
+    "values": [
+      246,
+      33,
+      857,
+      448,
+      242,
+      600,
+      414,
+      914,
+      48,
+      669,
+      245,
+      172
+    ]
+  },
+  {
+    "id": "chart_097",
+    "category": "scientific",
+    "type": "pie",
+    "complexity": "complex",
+    "title": "Scientific Measurements - Pie",
+    "categories": [
+      "Sample 1",
+      "Sample 2",
+      "Sample 3",
+      "Sample 4",
+      "Sample 5",
+      "Sample 6",
+      "Sample 7",
+      "Sample 8",
+      "Sample 9"
+    ],
+    "values": [
+      9.9,
+      15.2,
+      12.6,
+      12.6,
+      4.6,
+      17.9,
+      3.3,
+      14.6,
+      9.3
+    ]
+  },
+  {
+    "id": "chart_098",
+    "category": "healthcare",
+    "type": "line",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Line",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G"
+    ],
+    "values": [
+      234,
+      231,
+      226,
+      252,
+      283,
+      226,
+      296
+    ]
+  },
+  {
+    "id": "chart_099",
+    "category": "healthcare",
+    "type": "grouped_bar",
+    "complexity": "medium",
+    "title": "Healthcare Outcomes - Grouped_Bar",
+    "categories": [
+      "Treatment A",
+      "Treatment B",
+      "Treatment C",
+      "Treatment D",
+      "Treatment E",
+      "Treatment F",
+      "Treatment G",
+      "Treatment H"
+    ],
+    "values": [
+      353,
+      270,
+      116,
+      478,
+      11,
+      174,
+      158,
+      295
+    ]
+  }
+]

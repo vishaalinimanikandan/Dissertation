@@ -1,0 +1,42 @@
+{
+  "chart_title": "Financial Portfolio Analysis - Scatter",
+  "chart_type": "scatter",
+  "data": [
+    {
+      "category": "Asset A",
+      "value": 100
+    },
+    {
+      "category": "Asset B",
+      "value": 50
+    },
+    {
+      "category": "Asset C",
+      "value": 150
+    },
+    {
+      "category": "Asset D",
+      "value": 75
+    },
+    {
+      "category": "Asset E",
+      "value": 125
+    },
+    {
+      "category": "Asset F",
+      "value": 175
+    },
+    {
+      "category": "Asset G",
+      "value": 400
+    }
+  ],
+  "extraction_confidence": "medium",
+  "notes": "Values are estimated based on the scatter plot positions.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_037.png",
+    "extraction_timestamp": "2025-06-06T23:15:29.173015",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

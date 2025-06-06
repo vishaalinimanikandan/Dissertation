@@ -1,0 +1,46 @@
+{
+  "chart_title": "Demographic Distribution - Area",
+  "chart_type": "area",
+  "data": [
+    {
+      "category": "Group 1",
+      "value": 600
+    },
+    {
+      "category": "Group 2",
+      "value": 400
+    },
+    {
+      "category": "Group 3",
+      "value": 200
+    },
+    {
+      "category": "Group 4",
+      "value": 200
+    },
+    {
+      "category": "Group 5",
+      "value": 300
+    },
+    {
+      "category": "Group 6",
+      "value": 400
+    },
+    {
+      "category": "Group 7",
+      "value": 800
+    },
+    {
+      "category": "Group 8",
+      "value": 500
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the chart's grid lines.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_022.png",
+    "extraction_timestamp": "2025-06-06T23:16:50.741622",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

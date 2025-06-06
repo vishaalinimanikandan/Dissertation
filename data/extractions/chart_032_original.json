@@ -1,0 +1,30 @@
+{
+  "chart_title": "Business Performance Analysis - Pie",
+  "chart_type": "pie",
+  "data": [
+    {
+      "category": "Product A",
+      "value": 22.5
+    },
+    {
+      "category": "Product B",
+      "value": 29.6
+    },
+    {
+      "category": "Product C",
+      "value": 15.5
+    },
+    {
+      "category": "Product D",
+      "value": 32.4
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "The percentages sum to 100% as expected.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_032.png",
+    "extraction_timestamp": "2025-06-06T23:13:11.941366",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

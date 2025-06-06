@@ -1,0 +1,30 @@
+{
+  "chart_title": "Scientific Measurements - Line",
+  "chart_type": "line",
+  "data": [
+    {
+      "category": "Sample 1",
+      "value": 50
+    },
+    {
+      "category": "Sample 2",
+      "value": 45
+    },
+    {
+      "category": "Sample 3",
+      "value": 70
+    },
+    {
+      "category": "Sample 4",
+      "value": 45
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the line chart points.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_044.png",
+    "extraction_timestamp": "2025-06-06T23:13:34.750882",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

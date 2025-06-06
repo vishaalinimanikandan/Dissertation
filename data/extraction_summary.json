@@ -1,0 +1,17 @@
+{
+  "total_extractions": 30,
+  "original_count": 30,
+  "perturbation_count": 0,
+  "final_cost": 0.9,
+  "budget_utilization": 18.0,
+  "perturbations_tested": [],
+  "chart_types_tested": [
+    "area",
+    "bar",
+    "scatter",
+    "stacked_bar",
+    "pie",
+    "line",
+    "grouped_bar"
+  ]
+}

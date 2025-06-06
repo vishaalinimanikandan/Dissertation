@@ -1,0 +1,34 @@
+{
+  "chart_title": "Scientific Measurements - Area",
+  "chart_type": "area",
+  "data": [
+    {
+      "category": "Sample 1",
+      "value": 90
+    },
+    {
+      "category": "Sample 2",
+      "value": 60
+    },
+    {
+      "category": "Sample 3",
+      "value": 30
+    },
+    {
+      "category": "Sample 4",
+      "value": 100
+    },
+    {
+      "category": "Sample 5",
+      "value": 70
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the area chart's visual representation.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_002.png",
+    "extraction_timestamp": "2025-06-06T23:14:59.636192",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

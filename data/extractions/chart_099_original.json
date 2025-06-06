@@ -1,0 +1,78 @@
+{
+  "chart_title": "Healthcare Outcomes - Grouped_Bar",
+  "chart_type": "grouped_bar",
+  "data": [
+    {
+      "category": "Treatment A - Series 1",
+      "value": 350
+    },
+    {
+      "category": "Treatment A - Series 2",
+      "value": 450
+    },
+    {
+      "category": "Treatment B - Series 1",
+      "value": 250
+    },
+    {
+      "category": "Treatment B - Series 2",
+      "value": 300
+    },
+    {
+      "category": "Treatment C - Series 1",
+      "value": 100
+    },
+    {
+      "category": "Treatment C - Series 2",
+      "value": 150
+    },
+    {
+      "category": "Treatment D - Series 1",
+      "value": 450
+    },
+    {
+      "category": "Treatment D - Series 2",
+      "value": 400
+    },
+    {
+      "category": "Treatment E - Series 1",
+      "value": 10
+    },
+    {
+      "category": "Treatment E - Series 2",
+      "value": 20
+    },
+    {
+      "category": "Treatment F - Series 1",
+      "value": 200
+    },
+    {
+      "category": "Treatment F - Series 2",
+      "value": 100
+    },
+    {
+      "category": "Treatment G - Series 1",
+      "value": 150
+    },
+    {
+      "category": "Treatment G - Series 2",
+      "value": 120
+    },
+    {
+      "category": "Treatment H - Series 1",
+      "value": 300
+    },
+    {
+      "category": "Treatment H - Series 2",
+      "value": 350
+    }
+  ],
+  "extraction_confidence": "medium",
+  "notes": "Values are estimated based on visual inspection; exact values may vary slightly.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_099.png",
+    "extraction_timestamp": "2025-06-06T23:14:34.649496",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

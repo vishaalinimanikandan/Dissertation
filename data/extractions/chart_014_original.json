@@ -1,0 +1,58 @@
+{
+  "chart_title": "Financial Portfolio Analysis - Area",
+  "chart_type": "area",
+  "data": [
+    {
+      "category": "Asset A",
+      "value": 800
+    },
+    {
+      "category": "Asset B",
+      "value": 600
+    },
+    {
+      "category": "Asset C",
+      "value": 100
+    },
+    {
+      "category": "Asset D",
+      "value": 700
+    },
+    {
+      "category": "Asset E",
+      "value": 900
+    },
+    {
+      "category": "Asset F",
+      "value": 500
+    },
+    {
+      "category": "Asset G",
+      "value": 850
+    },
+    {
+      "category": "Asset H",
+      "value": 400
+    },
+    {
+      "category": "Asset I",
+      "value": 800
+    },
+    {
+      "category": "Asset J",
+      "value": 900
+    },
+    {
+      "category": "Asset K",
+      "value": 700
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the chart's grid lines.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_014.png",
+    "extraction_timestamp": "2025-06-06T23:16:08.551520",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "chart_title": "Healthcare Outcomes - Stacked_Bar",
+  "chart_type": "stacked_bar",
+  "data": [
+    {
+      "category": "Treatment A",
+      "value": 17
+    },
+    {
+      "category": "Treatment B",
+      "value": 5
+    },
+    {
+      "category": "Treatment C",
+      "value": 28
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the bar heights.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_093.png",
+    "extraction_timestamp": "2025-06-06T23:15:42.394673",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

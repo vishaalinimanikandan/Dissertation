@@ -1,0 +1,46 @@
+{
+  "chart_title": "Scientific Measurements - Grouped_Bar",
+  "chart_type": "grouped_bar",
+  "data": [
+    {
+      "category": "Sample 1 - Series 1",
+      "value": 35
+    },
+    {
+      "category": "Sample 1 - Series 2",
+      "value": 45
+    },
+    {
+      "category": "Sample 2 - Series 1",
+      "value": 25
+    },
+    {
+      "category": "Sample 2 - Series 2",
+      "value": 30
+    },
+    {
+      "category": "Sample 3 - Series 1",
+      "value": 80
+    },
+    {
+      "category": "Sample 3 - Series 2",
+      "value": 70
+    },
+    {
+      "category": "Sample 4 - Series 1",
+      "value": 10
+    },
+    {
+      "category": "Sample 4 - Series 2",
+      "value": 10
+    }
+  ],
+  "extraction_confidence": "high",
+  "notes": "Values are estimated based on the bar heights.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_075.png",
+    "extraction_timestamp": "2025-06-06T23:14:22.552555",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}

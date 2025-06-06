@@ -1,0 +1,46 @@
+{
+  "chart_title": "Scientific Measurements - Stacked_Bar",
+  "chart_type": "stacked_bar",
+  "data": [
+    {
+      "category": "Sample 1",
+      "value": 100
+    },
+    {
+      "category": "Sample 2",
+      "value": 700
+    },
+    {
+      "category": "Sample 3",
+      "value": 50
+    },
+    {
+      "category": "Sample 4",
+      "value": 400
+    },
+    {
+      "category": "Sample 5",
+      "value": 500
+    },
+    {
+      "category": "Sample 6",
+      "value": 750
+    },
+    {
+      "category": "Sample 7",
+      "value": 50
+    },
+    {
+      "category": "Sample 8",
+      "value": 450
+    }
+  ],
+  "extraction_confidence": "medium",
+  "notes": "Values are estimated based on visual inspection of the chart.",
+  "_metadata": {
+    "image_path": "data/raw_charts/chart_081.png",
+    "extraction_timestamp": "2025-06-06T23:14:04.557294",
+    "model_version": "gpt-4o",
+    "attempt_number": 1
+  }
+}
