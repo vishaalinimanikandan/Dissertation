@@ -1,0 +1,2213 @@
+Folder PATH listing
+Volume serial number is 046C-6122
+E:.
++---backups
++---data
+|   +---analysis_cache
+|   +---extractions
+|   +---ground_truth
+|   +---perturbations
+|   \---raw_charts
++---dissertation_env
+|   +---etc
+|   |   \---jupyter
+|   |       +---jupyter_notebook_config.d
+|   |       +---jupyter_server_config.d
+|   |       \---nbconfig
+|   |           \---notebook.d
+|   +---Include
+|   +---Lib
+|   |   \---site-packages
+|   |       +---adodbapi
+|   |       |   +---examples
+|   |       |   +---test
+|   |       +---annotated_types
+|   |       +---annotated_types-0.7.0.dist-info
+|   |       |   \---licenses
+|   |       +---anyio
+|   |       |   +---abc
+|   |       |   +---streams
+|   |       |   +---_backends
+|   |       |   +---_core
+|   |       +---anyio-4.9.0.dist-info
+|   |       +---argon2
+|   |       +---argon2_cffi-25.1.0.dist-info
+|   |       |   \---licenses
+|   |       +---argon2_cffi_bindings-21.2.0.dist-info
+|   |       +---arrow
+|   |       +---arrow-1.3.0.dist-info
+|   |       +---asttokens
+|   |       +---asttokens-3.0.0.dist-info
+|   |       +---async_lru
+|   |       +---async_lru-2.0.5.dist-info
+|   |       +---attr
+|   |       +---attrs
+|   |       +---attrs-25.3.0.dist-info
+|   |       |   \---licenses
+|   |       +---babel
+|   |       |   +---locale-data
+|   |       |   +---localtime
+|   |       |   +---messages
+|   |       +---babel-2.17.0.dist-info
+|   |       +---beautifulsoup4-4.13.4.dist-info
+|   |       |   \---licenses
+|   |       +---bleach
+|   |       |   +---_vendor
+|   |       |   |   +---html5lib
+|   |       |   |   |   +---filters
+|   |       |   |   |   +---treeadapters
+|   |       |   |   |   +---treebuilders
+|   |       |   |   |   +---treewalkers
+|   |       |   |   |   +---_trie
+|   |       |   |   +---html5lib-1.1.dist-info
+|   |       +---bleach-6.2.0.dist-info
+|   |       +---bs4
+|   |       |   +---builder
+|   |       |   +---tests
+|   |       |   |   +---fuzz
+|   |       +---certifi
+|   |       +---certifi-2025.6.15.dist-info
+|   |       |   \---licenses
+|   |       +---cffi
+|   |       +---cffi-1.17.1.dist-info
+|   |       +---charset_normalizer
+|   |       |   +---cli
+|   |       +---charset_normalizer-3.4.2.dist-info
+|   |       |   \---licenses
+|   |       +---colorama
+|   |       |   +---tests
+|   |       +---colorama-0.4.6.dist-info
+|   |       |   \---licenses
+|   |       +---comm
+|   |       +---comm-0.2.2.dist-info
+|   |       |   \---licenses
+|   |       +---contourpy
+|   |       |   +---util
+|   |       +---contourpy-1.3.2.dist-info
+|   |       +---cv2
+|   |       |   +---aruco
+|   |       |   +---barcode
+|   |       |   +---cuda
+|   |       |   +---data
+|   |       |   +---detail
+|   |       |   +---dnn
+|   |       |   +---Error
+|   |       |   +---fisheye
+|   |       |   +---flann
+|   |       |   +---gapi
+|   |       |   |   +---core
+|   |       |   |   |   +---cpu
+|   |       |   |   |   +---fluid
+|   |       |   |   |   \---ocl
+|   |       |   |   +---ie
+|   |       |   |   |   \---detail
+|   |       |   |   +---imgproc
+|   |       |   |   |   \---fluid
+|   |       |   |   +---oak
+|   |       |   |   +---onnx
+|   |       |   |   |   \---ep
+|   |       |   |   +---ot
+|   |       |   |   |   \---cpu
+|   |       |   |   +---ov
+|   |       |   |   +---own
+|   |       |   |   |   \---detail
+|   |       |   |   +---render
+|   |       |   |   |   \---ocv
+|   |       |   |   +---streaming
+|   |       |   |   +---video
+|   |       |   |   +---wip
+|   |       |   |   |   +---draw
+|   |       |   |   |   +---gst
+|   |       |   |   |   \---onevpl
+|   |       |   +---ipp
+|   |       |   +---mat_wrapper
+|   |       |   +---misc
+|   |       |   +---ml
+|   |       |   +---ocl
+|   |       |   +---ogl
+|   |       |   +---parallel
+|   |       |   +---samples
+|   |       |   +---segmentation
+|   |       |   +---typing
+|   |       |   +---utils
+|   |       |   |   +---fs
+|   |       |   |   +---nested
+|   |       |   +---videoio_registry
+|   |       +---cycler
+|   |       +---cycler-0.12.1.dist-info
+|   |       +---dateutil
+|   |       |   +---parser
+|   |       |   +---tz
+|   |       |   +---zoneinfo
+|   |       +---dateutil-stubs
+|   |       |   +---parser
+|   |       |   +---tz
+|   |       |   \---zoneinfo
+|   |       +---debugpy
+|   |       |   +---adapter
+|   |       |   +---common
+|   |       |   +---launcher
+|   |       |   +---server
+|   |       |   +---_vendored
+|   |       |   |   +---pydevd
+|   |       |   |   |   +---pydevd_attach_to_process
+|   |       |   |   |   |   +---common
+|   |       |   |   |   |   +---linux_and_mac
+|   |       |   |   |   |   +---winappdbg
+|   |       |   |   |   |   |   +---win32
+|   |       |   |   |   |   +---windows
+|   |       |   |   |   +---pydevd_plugins
+|   |       |   |   |   |   +---extensions
+|   |       |   |   |   |   |   +---types
+|   |       |   |   |   +---pydev_ipython
+|   |       |   |   |   +---pydev_sitecustomize
+|   |       |   |   |   +---_pydevd_bundle
+|   |       |   |   |   |   +---pydevd_concurrency_analyser
+|   |       |   |   |   |   +---_debug_adapter
+|   |       |   |   |   +---_pydevd_frame_eval
+|   |       |   |   |   |   +---vendored
+|   |       |   |   |   |   |   +---bytecode
+|   |       |   |   |   |   |   |   +---tests
+|   |       |   |   |   +---_pydevd_sys_monitoring
+|   |       |   |   |   +---_pydev_bundle
+|   |       |   |   |   |   +---fsnotify
+|   |       |   |   |   +---_pydev_runfiles
+|   |       +---debugpy-1.8.14.dist-info
+|   |       |   \---licenses
+|   |       +---decorator-5.2.1.dist-info
+|   |       +---defusedxml
+|   |       +---defusedxml-0.7.1.dist-info
+|   |       +---distro
+|   |       +---distro-1.9.0.dist-info
+|   |       +---dotenv
+|   |       +---executing
+|   |       +---executing-2.2.0.dist-info
+|   |       +---fastjsonschema
+|   |       +---fastjsonschema-2.21.1.dist-info
+|   |       +---fontTools
+|   |       |   +---cffLib
+|   |       |   +---colorLib
+|   |       |   +---config
+|   |       |   +---cu2qu
+|   |       |   +---designspaceLib
+|   |       |   +---encodings
+|   |       |   +---feaLib
+|   |       |   +---merge
+|   |       |   +---misc
+|   |       |   |   +---plistlib
+|   |       |   +---mtiLib
+|   |       |   +---otlLib
+|   |       |   |   +---optimize
+|   |       |   +---pens
+|   |       |   +---qu2cu
+|   |       |   +---subset
+|   |       |   +---svgLib
+|   |       |   |   +---path
+|   |       |   +---t1Lib
+|   |       |   +---ttLib
+|   |       |   |   +---tables
+|   |       |   +---ufoLib
+|   |       |   +---unicodedata
+|   |       |   +---varLib
+|   |       |   |   +---instancer
+|   |       |   +---voltLib
+|   |       +---fonttools-4.58.4.dist-info
+|   |       |   \---licenses
+|   |       +---fqdn
+|   |       +---fqdn-1.5.1.dist-info
+|   |       +---h11
+|   |       +---h11-0.16.0.dist-info
+|   |       |   \---licenses
+|   |       +---httpcore
+|   |       |   +---_async
+|   |       |   +---_backends
+|   |       |   +---_sync
+|   |       +---httpcore-1.0.9.dist-info
+|   |       |   \---licenses
+|   |       +---httpx
+|   |       |   +---_transports
+|   |       +---httpx-0.28.1.dist-info
+|   |       |   \---licenses
+|   |       +---idna
+|   |       +---idna-3.10.dist-info
+|   |       +---imageio
+|   |       |   +---config
+|   |       |   +---core
+|   |       |   +---plugins
+|   |       +---imageio-2.37.0.dist-info
+|   |       +---ipykernel
+|   |       |   +---comm
+|   |       |   +---gui
+|   |       |   +---inprocess
+|   |       |   +---pylab
+|   |       |   +---resources
+|   |       +---ipykernel-6.29.5.dist-info
+|   |       |   \---licenses
+|   |       +---IPython
+|   |       |   +---core
+|   |       |   |   +---magics
+|   |       |   |   +---profile
+|   |       |   +---extensions
+|   |       |   |   +---deduperreload
+|   |       |   +---external
+|   |       |   +---lib
+|   |       |   +---sphinxext
+|   |       |   +---terminal
+|   |       |   |   +---pt_inputhooks
+|   |       |   |   +---shortcuts
+|   |       |   +---testing
+|   |       |   |   +---plugin
+|   |       |   +---utils
+|   |       +---ipython-9.3.0.dist-info
+|   |       |   \---licenses
+|   |       +---ipython_pygments_lexers-1.1.1.dist-info
+|   |       +---ipywidgets
+|   |       |   +---tests
+|   |       |   +---widgets
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       +---ipywidgets-8.1.7.dist-info
+|   |       |   \---licenses
+|   |       +---isapi
+|   |       |   +---doc
+|   |       |   +---samples
+|   |       |   +---test
+|   |       +---isoduration
+|   |       |   +---formatter
+|   |       |   +---operations
+|   |       |   +---parser
+|   |       +---isoduration-20.11.0.dist-info
+|   |       +---jedi
+|   |       |   +---api
+|   |       |   |   +---refactoring
+|   |       |   +---inference
+|   |       |   |   +---compiled
+|   |       |   |   |   +---subprocess
+|   |       |   |   +---gradual
+|   |       |   |   +---value
+|   |       |   +---plugins
+|   |       |   +---third_party
+|   |       |   |   +---django-stubs
+|   |       |   |   |   \---django-stubs
+|   |       |   |   |       +---apps
+|   |       |   |   |       +---conf
+|   |       |   |   |       |   +---locale
+|   |       |   |   |       |   \---urls
+|   |       |   |   |       +---contrib
+|   |       |   |   |       |   +---admin
+|   |       |   |   |       |   |   +---templatetags
+|   |       |   |   |       |   |   \---views
+|   |       |   |   |       |   +---admindocs
+|   |       |   |   |       |   +---auth
+|   |       |   |   |       |   |   +---handlers
+|   |       |   |   |       |   |   \---management
+|   |       |   |   |       |   |       \---commands
+|   |       |   |   |       |   +---contenttypes
+|   |       |   |   |       |   |   \---management
+|   |       |   |   |       |   |       \---commands
+|   |       |   |   |       |   +---flatpages
+|   |       |   |   |       |   |   \---templatetags
+|   |       |   |   |       |   +---gis
+|   |       |   |   |       |   |   \---db
+|   |       |   |   |       |   |       \---models
+|   |       |   |   |       |   +---humanize
+|   |       |   |   |       |   |   \---templatetags
+|   |       |   |   |       |   +---messages
+|   |       |   |   |       |   |   \---storage
+|   |       |   |   |       |   +---postgres
+|   |       |   |   |       |   |   +---aggregates
+|   |       |   |   |       |   |   \---fields
+|   |       |   |   |       |   +---redirects
+|   |       |   |   |       |   +---sessions
+|   |       |   |   |       |   |   +---backends
+|   |       |   |   |       |   |   \---management
+|   |       |   |   |       |   |       \---commands
+|   |       |   |   |       |   +---sitemaps
+|   |       |   |   |       |   |   \---management
+|   |       |   |   |       |   |       \---commands
+|   |       |   |   |       |   +---sites
+|   |       |   |   |       |   +---staticfiles
+|   |       |   |   |       |   |   +---management
+|   |       |   |   |       |   |   |   \---commands
+|   |       |   |   |       |   |   \---templatetags
+|   |       |   |   |       |   \---syndication
+|   |       |   |   |       +---core
+|   |       |   |   |       |   +---cache
+|   |       |   |   |       |   |   \---backends
+|   |       |   |   |       |   +---checks
+|   |       |   |   |       |   |   \---security
+|   |       |   |   |       |   +---files
+|   |       |   |   |       |   +---handlers
+|   |       |   |   |       |   +---mail
+|   |       |   |   |       |   |   \---backends
+|   |       |   |   |       |   +---management
+|   |       |   |   |       |   |   \---commands
+|   |       |   |   |       |   +---serializers
+|   |       |   |   |       |   \---servers
+|   |       |   |   |       +---db
+|   |       |   |   |       |   +---backends
+|   |       |   |   |       |   |   +---base
+|   |       |   |   |       |   |   +---dummy
+|   |       |   |   |       |   |   +---mysql
+|   |       |   |   |       |   |   +---postgresql
+|   |       |   |   |       |   |   \---sqlite3
+|   |       |   |   |       |   +---migrations
+|   |       |   |   |       |   |   \---operations
+|   |       |   |   |       |   \---models
+|   |       |   |   |       |       +---fields
+|   |       |   |   |       |       +---functions
+|   |       |   |   |       |       \---sql
+|   |       |   |   |       +---dispatch
+|   |       |   |   |       +---forms
+|   |       |   |   |       +---http
+|   |       |   |   |       +---middleware
+|   |       |   |   |       +---template
+|   |       |   |   |       |   +---backends
+|   |       |   |   |       |   \---loaders
+|   |       |   |   |       +---templatetags
+|   |       |   |   |       +---test
+|   |       |   |   |       +---urls
+|   |       |   |   |       +---utils
+|   |       |   |   |       |   \---translation
+|   |       |   |   |       \---views
+|   |       |   |   |           +---decorators
+|   |       |   |   |           \---generic
+|   |       |   |   \---typeshed
+|   |       |   |       +---stdlib
+|   |       |   |       |   +---2
+|   |       |   |       |   |   +---distutils
+|   |       |   |       |   |   |   \---command
+|   |       |   |       |   |   +---email
+|   |       |   |       |   |   |   \---mime
+|   |       |   |       |   |   +---encodings
+|   |       |   |       |   |   +---multiprocessing
+|   |       |   |       |   |   |   \---dummy
+|   |       |   |       |   |   \---os
+|   |       |   |       |   +---2and3
+|   |       |   |       |   |   +---ctypes
+|   |       |   |       |   |   +---curses
+|   |       |   |       |   |   +---ensurepip
+|   |       |   |       |   |   +---lib2to3
+|   |       |   |       |   |   |   \---pgen2
+|   |       |   |       |   |   +---logging
+|   |       |   |       |   |   +---msilib
+|   |       |   |       |   |   +---pydoc_data
+|   |       |   |       |   |   +---pyexpat
+|   |       |   |       |   |   +---sqlite3
+|   |       |   |       |   |   +---wsgiref
+|   |       |   |       |   |   +---xml
+|   |       |   |       |   |   |   +---dom
+|   |       |   |       |   |   |   +---etree
+|   |       |   |       |   |   |   +---parsers
+|   |       |   |       |   |   |   |   \---expat
+|   |       |   |       |   |   |   \---sax
+|   |       |   |       |   |   \---_typeshed
+|   |       |   |       |   +---3
+|   |       |   |       |   |   +---asyncio
+|   |       |   |       |   |   +---collections
+|   |       |   |       |   |   +---concurrent
+|   |       |   |       |   |   |   \---futures
+|   |       |   |       |   |   +---dbm
+|   |       |   |       |   |   +---distutils
+|   |       |   |       |   |   |   \---command
+|   |       |   |       |   |   +---email
+|   |       |   |       |   |   |   \---mime
+|   |       |   |       |   |   +---encodings
+|   |       |   |       |   |   +---html
+|   |       |   |       |   |   +---http
+|   |       |   |       |   |   +---importlib
+|   |       |   |       |   |   +---json
+|   |       |   |       |   |   +---multiprocessing
+|   |       |   |       |   |   |   \---dummy
+|   |       |   |       |   |   +---os
+|   |       |   |       |   |   +---tkinter
+|   |       |   |       |   |   +---unittest
+|   |       |   |       |   |   +---urllib
+|   |       |   |       |   |   +---venv
+|   |       |   |       |   |   \---xmlrpc
+|   |       |   |       |   +---3.7
+|   |       |   |       |   \---3.9
+|   |       |   |       |       \---zoneinfo
+|   |       |   |       \---third_party
+|   |       |   |           +---2
+|   |       |   |           |   +---concurrent
+|   |       |   |           |   |   \---futures
+|   |       |   |           |   +---fb303
+|   |       |   |           |   +---kazoo
+|   |       |   |           |   |   \---recipe
+|   |       |   |           |   +---OpenSSL
+|   |       |   |           |   +---routes
+|   |       |   |           |   +---scribe
+|   |       |   |           |   +---six
+|   |       |   |           |   |   \---moves
+|   |       |   |           |   |       \---urllib
+|   |       |   |           |   \---tornado
+|   |       |   |           +---2and3
+|   |       |   |           |   +---atomicwrites
+|   |       |   |           |   +---attr
+|   |       |   |           |   +---backports
+|   |       |   |           |   +---bleach
+|   |       |   |           |   +---boto
+|   |       |   |           |   |   +---ec2
+|   |       |   |           |   |   +---elb
+|   |       |   |           |   |   +---kms
+|   |       |   |           |   |   \---s3
+|   |       |   |           |   +---cachetools
+|   |       |   |           |   +---characteristic
+|   |       |   |           |   +---chardet
+|   |       |   |           |   +---click
+|   |       |   |           |   +---cryptography
+|   |       |   |           |   |   +---hazmat
+|   |       |   |           |   |   |   +---backends
+|   |       |   |           |   |   |   +---bindings
+|   |       |   |           |   |   |   |   \---openssl
+|   |       |   |           |   |   |   \---primitives
+|   |       |   |           |   |   |       +---asymmetric
+|   |       |   |           |   |   |       +---ciphers
+|   |       |   |           |   |   |       +---kdf
+|   |       |   |           |   |   |       +---serialization
+|   |       |   |           |   |   |       \---twofactor
+|   |       |   |           |   |   \---x509
+|   |       |   |           |   +---datetimerange
+|   |       |   |           |   +---dateutil
+|   |       |   |           |   |   \---tz
+|   |       |   |           |   +---deprecated
+|   |       |   |           |   +---emoji
+|   |       |   |           |   +---flask
+|   |       |   |           |   |   \---json
+|   |       |   |           |   +---geoip2
+|   |       |   |           |   +---google
+|   |       |   |           |   |   \---protobuf
+|   |       |   |           |   |       +---compiler
+|   |       |   |           |   |       +---internal
+|   |       |   |           |   |       \---util
+|   |       |   |           |   +---jinja2
+|   |       |   |           |   +---markdown
+|   |       |   |           |   |   \---extensions
+|   |       |   |           |   +---markupsafe
+|   |       |   |           |   +---maxminddb
+|   |       |   |           |   +---nmap
+|   |       |   |           |   +---paramiko
+|   |       |   |           |   +---pymysql
+|   |       |   |           |   |   \---constants
+|   |       |   |           |   +---pynamodb
+|   |       |   |           |   |   \---connection
+|   |       |   |           |   +---pytz
+|   |       |   |           |   +---pyVmomi
+|   |       |   |           |   |   +---vim
+|   |       |   |           |   |   \---vmodl
+|   |       |   |           |   +---redis
+|   |       |   |           |   +---requests
+|   |       |   |           |   |   \---packages
+|   |       |   |           |   |       \---urllib3
+|   |       |   |           |   |           +---contrib
+|   |       |   |           |   |           +---packages
+|   |       |   |           |   |           |   \---ssl_match_hostname
+|   |       |   |           |   |           \---util
+|   |       |   |           |   +---retry
+|   |       |   |           |   +---simplejson
+|   |       |   |           |   +---slugify
+|   |       |   |           |   +---tzlocal
+|   |       |   |           |   +---werkzeug
+|   |       |   |           |   |   +---contrib
+|   |       |   |           |   |   +---debug
+|   |       |   |           |   |   \---middleware
+|   |       |   |           |   \---yaml
+|   |       |   |           \---3
+|   |       |   |               +---aiofiles
+|   |       |   |               |   \---threadpool
+|   |       |   |               +---docutils
+|   |       |   |               |   \---parsers
+|   |       |   |               |       \---rst
+|   |       |   |               +---filelock
+|   |       |   |               +---freezegun
+|   |       |   |               +---jwt
+|   |       |   |               |   \---contrib
+|   |       |   |               |       \---algorithms
+|   |       |   |               +---pkg_resources
+|   |       |   |               +---pyrfc3339
+|   |       |   |               +---six
+|   |       |   |               |   \---moves
+|   |       |   |               |       \---urllib
+|   |       |   |               +---typed_ast
+|   |       |   |               \---waitress
+|   |       +---jedi-0.19.2.dist-info
+|   |       +---jinja2
+|   |       +---jinja2-3.1.6.dist-info
+|   |       |   \---licenses
+|   |       +---jiter
+|   |       +---jiter-0.10.0.dist-info
+|   |       +---joblib
+|   |       |   +---externals
+|   |       |   |   +---cloudpickle
+|   |       |   |   +---loky
+|   |       |   |   |   +---backend
+|   |       |   +---test
+|   |       |   |   +---data
+|   |       +---joblib-1.5.1.dist-info
+|   |       |   \---licenses
+|   |       +---json5
+|   |       +---json5-0.12.0.dist-info
+|   |       |   \---licenses
+|   |       +---jsonpointer-3.0.0.dist-info
+|   |       +---jsonschema
+|   |       |   +---benchmarks
+|   |       |   |   +---issue232
+|   |       |   +---tests
+|   |       +---jsonschema-4.24.0.dist-info
+|   |       |   \---licenses
+|   |       +---jsonschema_specifications
+|   |       |   +---schemas
+|   |       |   |   +---draft201909
+|   |       |   |   |   \---vocabularies
+|   |       |   |   +---draft202012
+|   |       |   |   |   \---vocabularies
+|   |       |   |   +---draft3
+|   |       |   |   +---draft4
+|   |       |   |   +---draft6
+|   |       |   |   \---draft7
+|   |       |   +---tests
+|   |       +---jsonschema_specifications-2025.4.1.dist-info
+|   |       |   \---licenses
+|   |       +---jupyter-1.1.1.dist-info
+|   |       +---jupyterlab
+|   |       |   +---extensions
+|   |       |   +---galata
+|   |       |   |   +---@jupyterlab
+|   |       |   |   |   \---galata-extension
+|   |       |   |   |       \---static
+|   |       |   +---handlers
+|   |       |   +---schemas
+|   |       |   |   \---@jupyterlab
+|   |       |   |       +---application-extension
+|   |       |   |       +---apputils-extension
+|   |       |   |       +---cell-toolbar-extension
+|   |       |   |       +---celltags-extension
+|   |       |   |       +---codemirror-extension
+|   |       |   |       +---completer-extension
+|   |       |   |       +---console-extension
+|   |       |   |       +---csvviewer-extension
+|   |       |   |       +---debugger-extension
+|   |       |   |       +---docmanager-extension
+|   |       |   |       +---documentsearch-extension
+|   |       |   |       +---extensionmanager-extension
+|   |       |   |       +---filebrowser-extension
+|   |       |   |       +---fileeditor-extension
+|   |       |   |       +---help-extension
+|   |       |   |       +---htmlviewer-extension
+|   |       |   |       +---hub-extension
+|   |       |   |       +---imageviewer-extension
+|   |       |   |       +---inspector-extension
+|   |       |   |       +---launcher-extension
+|   |       |   |       +---logconsole-extension
+|   |       |   |       +---lsp-extension
+|   |       |   |       +---mainmenu-extension
+|   |       |   |       +---markdownviewer-extension
+|   |       |   |       +---mathjax-extension
+|   |       |   |       +---metadataform-extension
+|   |       |   |       +---notebook-extension
+|   |       |   |       +---running-extension
+|   |       |   |       +---settingeditor-extension
+|   |       |   |       +---shortcuts-extension
+|   |       |   |       +---statusbar-extension
+|   |       |   |       +---terminal-extension
+|   |       |   |       +---toc-extension
+|   |       |   |       +---tooltip-extension
+|   |       |   |       +---translation-extension
+|   |       |   |       \---workspaces-extension
+|   |       |   +---staging
+|   |       |   |   \---templates
+|   |       |   +---static
+|   |       |   +---tests
+|   |       |   |   +---mock_packages
+|   |       |   |   |   +---extension
+|   |       |   |   |   +---incompat
+|   |       |   |   |   +---interop
+|   |       |   |   |   |   +---consumer
+|   |       |   |   |   |   +---provider
+|   |       |   |   |   |   \---token
+|   |       |   |   |   +---mimeextension
+|   |       |   |   |   +---package
+|   |       |   |   |   +---service-manager-extension
+|   |       |   |   |   +---test-hyphens
+|   |       |   |   |   |   +---test_hyphens
+|   |       |   |   |   +---test-hyphens-underscore
+|   |       |   |   |   |   +---test_hyphens_underscore
+|   |       |   |   |   \---test_no_hyphens
+|   |       |   |   |       +---test_no_hyphens
+|   |       |   +---themes
+|   |       |   |   \---@jupyterlab
+|   |       |   |       +---theme-dark-extension
+|   |       |   |       +---theme-dark-high-contrast-extension
+|   |       |   |       \---theme-light-extension
+|   |       +---jupyterlab-4.4.3.dist-info
+|   |       |   \---licenses
+|   |       +---jupyterlab_pygments
+|   |       +---jupyterlab_pygments-0.3.0.dist-info
+|   |       |   \---licenses
+|   |       +---jupyterlab_server
+|   |       |   +---templates
+|   |       |   +---test_data
+|   |       |   |   +---app-settings
+|   |       |   |   +---schemas
+|   |       |   |   |   \---@jupyterlab
+|   |       |   |   |       +---apputils-extension
+|   |       |   |   |       +---codemirror-extension
+|   |       |   |   |       +---shortcuts-extension
+|   |       |   |   |       +---translation-extension
+|   |       |   |   |       \---unicode-extension
+|   |       |   |   \---workspaces
+|   |       +---jupyterlab_server-2.27.3.dist-info
+|   |       |   \---licenses
+|   |       +---jupyterlab_widgets
+|   |       +---jupyterlab_widgets-3.0.15.dist-info
+|   |       |   \---licenses
+|   |       +---jupyter_client
+|   |       |   +---asynchronous
+|   |       |   +---blocking
+|   |       |   +---ioloop
+|   |       |   +---provisioning
+|   |       |   +---ssh
+|   |       +---jupyter_client-8.6.3.dist-info
+|   |       |   \---licenses
+|   |       +---jupyter_console
+|   |       |   +---tests
+|   |       +---jupyter_console-6.6.3.dist-info
+|   |       |   \---licenses
+|   |       +---jupyter_core
+|   |       |   +---utils
+|   |       +---jupyter_core-5.8.1.dist-info
+|   |       |   \---licenses
+|   |       +---jupyter_events
+|   |       |   +---schemas
+|   |       +---jupyter_events-0.12.0.dist-info
+|   |       |   \---licenses
+|   |       +---jupyter_lsp
+|   |       |   +---etc
+|   |       |   +---schema
+|   |       |   +---specs
+|   |       |   |   +---config
+|   |       |   +---tests
+|   |       +---jupyter_lsp-2.2.5.dist-info
+|   |       +---jupyter_server
+|   |       |   +---auth
+|   |       |   +---base
+|   |       |   +---event_schemas
+|   |       |   |   +---contents_service
+|   |       |   |   +---gateway_client
+|   |       |   |   \---kernel_actions
+|   |       |   +---extension
+|   |       |   +---files
+|   |       |   +---gateway
+|   |       |   +---i18n
+|   |       |   |   +---zh_CN
+|   |       |   |   |   \---LC_MESSAGES
+|   |       |   +---kernelspecs
+|   |       |   +---nbconvert
+|   |       |   +---prometheus
+|   |       |   +---services
+|   |       |   |   +---api
+|   |       |   |   +---config
+|   |       |   |   +---contents
+|   |       |   |   +---events
+|   |       |   |   +---kernels
+|   |       |   |   |   +---connection
+|   |       |   |   +---kernelspecs
+|   |       |   |   +---nbconvert
+|   |       |   |   +---security
+|   |       |   |   +---sessions
+|   |       |   +---static
+|   |       |   |   +---favicons
+|   |       |   |   +---logo
+|   |       |   |   \---style
+|   |       |   +---templates
+|   |       |   +---terminal
+|   |       |   +---view
+|   |       +---jupyter_server-2.16.0.dist-info
+|   |       |   \---licenses
+|   |       +---jupyter_server_terminals
+|   |       +---jupyter_server_terminals-0.5.3.dist-info
+|   |       |   \---licenses
+|   |       +---kiwisolver
+|   |       +---kiwisolver-1.4.8.dist-info
+|   |       +---lazy_loader
+|   |       |   +---tests
+|   |       |   |   +---fake_pkg
+|   |       +---lazy_loader-0.4.dist-info
+|   |       +---markupsafe
+|   |       +---MarkupSafe-3.0.2.dist-info
+|   |       +---matplotlib
+|   |       |   +---axes
+|   |       |   +---backends
+|   |       |   |   +---qt_editor
+|   |       |   |   +---web_backend
+|   |       |   |   |   +---css
+|   |       |   |   |   \---js
+|   |       |   +---mpl-data
+|   |       |   |   +---fonts
+|   |       |   |   |   +---afm
+|   |       |   |   |   +---pdfcorefonts
+|   |       |   |   |   \---ttf
+|   |       |   |   +---images
+|   |       |   |   +---plot_directive
+|   |       |   |   +---sample_data
+|   |       |   |   |   \---axes_grid
+|   |       |   |   \---stylelib
+|   |       |   +---projections
+|   |       |   +---sphinxext
+|   |       |   +---style
+|   |       |   +---testing
+|   |       |   |   +---jpl_units
+|   |       |   +---tests
+|   |       |   +---tri
+|   |       |   +---_api
+|   |       +---matplotlib-3.10.3.dist-info
+|   |       +---matplotlib_inline
+|   |       +---matplotlib_inline-0.1.7.dist-info
+|   |       +---mistune
+|   |       |   +---directives
+|   |       |   +---plugins
+|   |       |   +---renderers
+|   |       +---mistune-3.1.3.dist-info
+|   |       +---mpl_toolkits
+|   |       |   +---axes_grid1
+|   |       |   |   +---tests
+|   |       |   +---axisartist
+|   |       |   |   +---tests
+|   |       |   \---mplot3d
+|   |       |       +---tests
+|   |       +---nbclient
+|   |       +---nbclient-0.10.2.dist-info
+|   |       |   \---licenses
+|   |       +---nbconvert
+|   |       |   +---exporters
+|   |       |   +---filters
+|   |       |   +---postprocessors
+|   |       |   +---preprocessors
+|   |       |   +---resources
+|   |       |   +---templates
+|   |       |   |   \---skeleton
+|   |       |   +---utils
+|   |       |   +---writers
+|   |       +---nbconvert-7.16.6.dist-info
+|   |       |   \---licenses
+|   |       +---nbformat
+|   |       |   +---corpus
+|   |       |   |   +---tests
+|   |       |   +---v1
+|   |       |   +---v2
+|   |       |   +---v3
+|   |       |   +---v4
+|   |       +---nbformat-5.10.4.dist-info
+|   |       |   \---licenses
+|   |       +---nest_asyncio-1.6.0.dist-info
+|   |       +---networkx
+|   |       |   +---algorithms
+|   |       |   |   +---approximation
+|   |       |   |   |   +---tests
+|   |       |   |   +---assortativity
+|   |       |   |   |   +---tests
+|   |       |   |   +---bipartite
+|   |       |   |   |   +---tests
+|   |       |   |   +---centrality
+|   |       |   |   |   +---tests
+|   |       |   |   +---coloring
+|   |       |   |   |   +---tests
+|   |       |   |   +---community
+|   |       |   |   |   +---tests
+|   |       |   |   +---components
+|   |       |   |   |   +---tests
+|   |       |   |   +---connectivity
+|   |       |   |   |   +---tests
+|   |       |   |   +---flow
+|   |       |   |   |   +---tests
+|   |       |   |   +---isomorphism
+|   |       |   |   |   +---tests
+|   |       |   |   +---link_analysis
+|   |       |   |   |   +---tests
+|   |       |   |   +---minors
+|   |       |   |   |   +---tests
+|   |       |   |   +---operators
+|   |       |   |   |   +---tests
+|   |       |   |   +---shortest_paths
+|   |       |   |   |   +---tests
+|   |       |   |   +---tests
+|   |       |   |   +---traversal
+|   |       |   |   |   +---tests
+|   |       |   |   +---tree
+|   |       |   |   |   +---tests
+|   |       |   +---classes
+|   |       |   |   +---tests
+|   |       |   +---drawing
+|   |       |   |   +---tests
+|   |       |   |   |   +---baseline
+|   |       |   +---generators
+|   |       |   |   +---tests
+|   |       |   +---linalg
+|   |       |   |   +---tests
+|   |       |   +---readwrite
+|   |       |   |   +---json_graph
+|   |       |   |   |   +---tests
+|   |       |   |   +---tests
+|   |       |   +---tests
+|   |       |   +---utils
+|   |       |   |   +---tests
+|   |       +---networkx-3.5.dist-info
+|   |       |   \---licenses
+|   |       +---notebook
+|   |       |   +---custom
+|   |       |   +---static
+|   |       |   +---templates
+|   |       +---notebook-7.4.3.dist-info
+|   |       |   \---licenses
+|   |       +---notebook_shim
+|   |       |   +---tests
+|   |       |   |   +---confs
+|   |       +---notebook_shim-0.2.4.dist-info
+|   |       |   \---licenses
+|   |       +---numpy
+|   |       |   +---char
+|   |       |   +---core
+|   |       |   +---ctypeslib
+|   |       |   +---doc
+|   |       |   +---f2py
+|   |       |   |   +---src
+|   |       |   |   +---tests
+|   |       |   |   |   +---src
+|   |       |   |   |   |   +---abstract_interface
+|   |       |   |   |   |   +---array_from_pyobj
+|   |       |   |   |   |   +---assumed_shape
+|   |       |   |   |   |   +---block_docstring
+|   |       |   |   |   |   +---callback
+|   |       |   |   |   |   +---cli
+|   |       |   |   |   |   +---common
+|   |       |   |   |   |   +---crackfortran
+|   |       |   |   |   |   +---f2cmap
+|   |       |   |   |   |   +---isocintrin
+|   |       |   |   |   |   +---kind
+|   |       |   |   |   |   +---mixed
+|   |       |   |   |   |   +---modules
+|   |       |   |   |   |   |   +---gh25337
+|   |       |   |   |   |   |   \---gh26920
+|   |       |   |   |   |   +---negative_bounds
+|   |       |   |   |   |   +---parameter
+|   |       |   |   |   |   +---quoted_character
+|   |       |   |   |   |   +---regression
+|   |       |   |   |   |   +---return_character
+|   |       |   |   |   |   +---return_complex
+|   |       |   |   |   |   +---return_integer
+|   |       |   |   |   |   +---return_logical
+|   |       |   |   |   |   +---return_real
+|   |       |   |   |   |   +---routines
+|   |       |   |   |   |   +---size
+|   |       |   |   |   |   +---string
+|   |       |   |   |   |   \---value_attrspec
+|   |       |   |   +---_backends
+|   |       |   +---fft
+|   |       |   |   +---tests
+|   |       |   +---lib
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   +---linalg
+|   |       |   |   +---tests
+|   |       |   +---ma
+|   |       |   |   +---tests
+|   |       |   +---matrixlib
+|   |       |   |   +---tests
+|   |       |   +---polynomial
+|   |       |   |   +---tests
+|   |       |   +---random
+|   |       |   |   +---lib
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   +---_examples
+|   |       |   |   |   +---cffi
+|   |       |   |   |   +---cython
+|   |       |   |   |   \---numba
+|   |       |   +---rec
+|   |       |   +---strings
+|   |       |   +---testing
+|   |       |   |   +---tests
+|   |       |   |   +---_private
+|   |       |   +---tests
+|   |       |   +---typing
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   |   |   +---fail
+|   |       |   |   |   |   +---misc
+|   |       |   |   |   |   +---pass
+|   |       |   |   |   |   \---reveal
+|   |       |   +---_core
+|   |       |   |   +---include
+|   |       |   |   |   \---numpy
+|   |       |   |   |       \---random
+|   |       |   |   +---lib
+|   |       |   |   |   +---npy-pkg-config
+|   |       |   |   |   \---pkgconfig
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   |   +---examples
+|   |       |   |   |   |   +---cython
+|   |       |   |   |   |   \---limited_api
+|   |       |   +---_pyinstaller
+|   |       |   |   +---tests
+|   |       |   +---_typing
+|   |       |   +---_utils
+|   |       +---numpy-2.3.0.dist-info
+|   |       +---numpy.libs
+|   |       +---openai
+|   |       |   +---cli
+|   |       |   |   +---_api
+|   |       |   |   |   +---chat
+|   |       |   |   +---_tools
+|   |       |   +---helpers
+|   |       |   +---lib
+|   |       |   |   +---streaming
+|   |       |   |   |   +---chat
+|   |       |   |   |   +---responses
+|   |       |   |   +---_parsing
+|   |       |   +---resources
+|   |       |   |   +---audio
+|   |       |   |   +---beta
+|   |       |   |   |   +---chat
+|   |       |   |   |   +---realtime
+|   |       |   |   |   +---threads
+|   |       |   |   |   |   +---runs
+|   |       |   |   +---chat
+|   |       |   |   |   +---completions
+|   |       |   |   +---containers
+|   |       |   |   |   +---files
+|   |       |   |   +---evals
+|   |       |   |   |   +---runs
+|   |       |   |   +---fine_tuning
+|   |       |   |   |   +---alpha
+|   |       |   |   |   +---checkpoints
+|   |       |   |   |   +---jobs
+|   |       |   |   +---responses
+|   |       |   |   +---uploads
+|   |       |   |   +---vector_stores
+|   |       |   +---types
+|   |       |   |   +---audio
+|   |       |   |   +---beta
+|   |       |   |   |   +---chat
+|   |       |   |   |   +---realtime
+|   |       |   |   |   +---threads
+|   |       |   |   |   |   +---runs
+|   |       |   |   +---chat
+|   |       |   |   |   +---completions
+|   |       |   |   +---containers
+|   |       |   |   |   +---files
+|   |       |   |   +---evals
+|   |       |   |   |   +---runs
+|   |       |   |   +---fine_tuning
+|   |       |   |   |   +---alpha
+|   |       |   |   |   +---checkpoints
+|   |       |   |   |   +---jobs
+|   |       |   |   +---graders
+|   |       |   |   +---responses
+|   |       |   |   +---shared
+|   |       |   |   +---shared_params
+|   |       |   |   +---uploads
+|   |       |   |   +---vector_stores
+|   |       |   +---_extras
+|   |       |   +---_utils
+|   |       +---openai-1.90.0.dist-info
+|   |       |   \---licenses
+|   |       +---opencv_python-4.11.0.86.dist-info
+|   |       +---overrides
+|   |       +---overrides-7.7.0.dist-info
+|   |       +---packaging
+|   |       |   +---licenses
+|   |       +---packaging-25.0.dist-info
+|   |       |   \---licenses
+|   |       +---pandas
+|   |       |   +---api
+|   |       |   |   +---extensions
+|   |       |   |   +---indexers
+|   |       |   |   +---interchange
+|   |       |   |   +---types
+|   |       |   |   +---typing
+|   |       |   +---arrays
+|   |       |   +---compat
+|   |       |   |   +---numpy
+|   |       |   +---core
+|   |       |   |   +---arrays
+|   |       |   |   |   +---arrow
+|   |       |   |   |   +---sparse
+|   |       |   |   +---array_algos
+|   |       |   |   +---computation
+|   |       |   |   +---dtypes
+|   |       |   |   +---groupby
+|   |       |   |   +---indexers
+|   |       |   |   +---indexes
+|   |       |   |   +---interchange
+|   |       |   |   +---internals
+|   |       |   |   +---methods
+|   |       |   |   +---ops
+|   |       |   |   +---reshape
+|   |       |   |   +---sparse
+|   |       |   |   +---strings
+|   |       |   |   +---tools
+|   |       |   |   +---util
+|   |       |   |   +---window
+|   |       |   |   +---_numba
+|   |       |   |   |   +---kernels
+|   |       |   +---errors
+|   |       |   +---io
+|   |       |   |   +---clipboard
+|   |       |   |   +---excel
+|   |       |   |   +---formats
+|   |       |   |   |   +---templates
+|   |       |   |   +---json
+|   |       |   |   +---parsers
+|   |       |   |   +---sas
+|   |       |   +---plotting
+|   |       |   |   +---_matplotlib
+|   |       |   +---tests
+|   |       |   |   +---api
+|   |       |   |   +---apply
+|   |       |   |   +---arithmetic
+|   |       |   |   +---arrays
+|   |       |   |   |   +---boolean
+|   |       |   |   |   +---categorical
+|   |       |   |   |   +---datetimes
+|   |       |   |   |   +---floating
+|   |       |   |   |   +---integer
+|   |       |   |   |   +---interval
+|   |       |   |   |   +---masked
+|   |       |   |   |   +---numpy_
+|   |       |   |   |   +---period
+|   |       |   |   |   +---sparse
+|   |       |   |   |   +---string_
+|   |       |   |   |   +---timedeltas
+|   |       |   |   +---base
+|   |       |   |   +---computation
+|   |       |   |   +---config
+|   |       |   |   +---construction
+|   |       |   |   +---copy_view
+|   |       |   |   |   +---index
+|   |       |   |   +---dtypes
+|   |       |   |   |   +---cast
+|   |       |   |   +---extension
+|   |       |   |   |   +---array_with_attr
+|   |       |   |   |   +---base
+|   |       |   |   |   +---date
+|   |       |   |   |   +---decimal
+|   |       |   |   |   +---json
+|   |       |   |   |   +---list
+|   |       |   |   +---frame
+|   |       |   |   |   +---constructors
+|   |       |   |   |   +---indexing
+|   |       |   |   |   +---methods
+|   |       |   |   +---generic
+|   |       |   |   +---groupby
+|   |       |   |   |   +---aggregate
+|   |       |   |   |   +---methods
+|   |       |   |   |   +---transform
+|   |       |   |   +---indexes
+|   |       |   |   |   +---base_class
+|   |       |   |   |   +---categorical
+|   |       |   |   |   +---datetimelike_
+|   |       |   |   |   +---datetimes
+|   |       |   |   |   |   +---methods
+|   |       |   |   |   +---interval
+|   |       |   |   |   +---multi
+|   |       |   |   |   +---numeric
+|   |       |   |   |   +---object
+|   |       |   |   |   +---period
+|   |       |   |   |   |   +---methods
+|   |       |   |   |   +---ranges
+|   |       |   |   |   +---string
+|   |       |   |   |   +---timedeltas
+|   |       |   |   |   |   +---methods
+|   |       |   |   +---indexing
+|   |       |   |   |   +---interval
+|   |       |   |   |   +---multiindex
+|   |       |   |   +---interchange
+|   |       |   |   +---internals
+|   |       |   |   +---io
+|   |       |   |   |   +---excel
+|   |       |   |   |   +---formats
+|   |       |   |   |   |   +---style
+|   |       |   |   |   +---json
+|   |       |   |   |   +---parser
+|   |       |   |   |   |   +---common
+|   |       |   |   |   |   +---dtypes
+|   |       |   |   |   |   +---usecols
+|   |       |   |   |   +---pytables
+|   |       |   |   |   +---sas
+|   |       |   |   |   +---xml
+|   |       |   |   +---libs
+|   |       |   |   +---plotting
+|   |       |   |   |   +---frame
+|   |       |   |   +---reductions
+|   |       |   |   +---resample
+|   |       |   |   +---reshape
+|   |       |   |   |   +---concat
+|   |       |   |   |   +---merge
+|   |       |   |   +---scalar
+|   |       |   |   |   +---interval
+|   |       |   |   |   +---period
+|   |       |   |   |   +---timedelta
+|   |       |   |   |   |   +---methods
+|   |       |   |   |   +---timestamp
+|   |       |   |   |   |   +---methods
+|   |       |   |   +---series
+|   |       |   |   |   +---accessors
+|   |       |   |   |   +---indexing
+|   |       |   |   |   +---methods
+|   |       |   |   +---strings
+|   |       |   |   +---tools
+|   |       |   |   +---tseries
+|   |       |   |   |   +---frequencies
+|   |       |   |   |   +---holiday
+|   |       |   |   |   +---offsets
+|   |       |   |   +---tslibs
+|   |       |   |   +---util
+|   |       |   |   +---window
+|   |       |   |   |   +---moments
+|   |       |   +---tseries
+|   |       |   +---util
+|   |       |   |   +---version
+|   |       |   +---_config
+|   |       |   +---_libs
+|   |       |   |   +---tslibs
+|   |       |   |   +---window
+|   |       |   +---_testing
+|   |       +---pandas-2.3.0.dist-info
+|   |       +---pandas.libs
+|   |       +---pandas_flavor
+|   |       +---pandas_flavor-0.7.0.dist-info
+|   |       |   \---licenses
+|   |       +---pandocfilters-1.5.1.dist-info
+|   |       +---parso
+|   |       |   +---pgen2
+|   |       |   +---python
+|   |       +---parso-0.8.4.dist-info
+|   |       +---patsy
+|   |       +---patsy-1.0.1.dist-info
+|   |       +---PIL
+|   |       +---pillow-11.2.1.dist-info
+|   |       |   \---licenses
+|   |       +---pingouin
+|   |       |   +---datasets
+|   |       +---pingouin-0.5.5.dist-info
+|   |       +---pip
+|   |       |   +---_internal
+|   |       |   |   +---cli
+|   |       |   |   +---commands
+|   |       |   |   +---distributions
+|   |       |   |   +---index
+|   |       |   |   +---locations
+|   |       |   |   +---metadata
+|   |       |   |   |   +---importlib
+|   |       |   |   +---models
+|   |       |   |   +---network
+|   |       |   |   +---operations
+|   |       |   |   |   +---build
+|   |       |   |   |   +---install
+|   |       |   |   +---req
+|   |       |   |   +---resolution
+|   |       |   |   |   +---legacy
+|   |       |   |   |   +---resolvelib
+|   |       |   |   +---utils
+|   |       |   |   +---vcs
+|   |       |   +---_vendor
+|   |       |   |   +---cachecontrol
+|   |       |   |   |   +---caches
+|   |       |   |   +---certifi
+|   |       |   |   +---distlib
+|   |       |   |   +---distro
+|   |       |   |   +---idna
+|   |       |   |   +---msgpack
+|   |       |   |   +---packaging
+|   |       |   |   +---pkg_resources
+|   |       |   |   +---platformdirs
+|   |       |   |   +---pygments
+|   |       |   |   |   +---filters
+|   |       |   |   |   +---formatters
+|   |       |   |   |   +---lexers
+|   |       |   |   |   +---styles
+|   |       |   |   +---pyproject_hooks
+|   |       |   |   |   +---_in_process
+|   |       |   |   +---requests
+|   |       |   |   +---resolvelib
+|   |       |   |   |   +---compat
+|   |       |   |   +---rich
+|   |       |   |   +---tomli
+|   |       |   |   +---truststore
+|   |       |   |   +---urllib3
+|   |       |   |   |   +---contrib
+|   |       |   |   |   |   +---_securetransport
+|   |       |   |   |   +---packages
+|   |       |   |   |   |   +---backports
+|   |       |   |   |   +---util
+|   |       +---pip-24.2.dist-info
+|   |       +---pkg_resources
+|   |       |   +---tests
+|   |       |   |   +---data
+|   |       |   |   |   +---my-test-package-source
+|   |       |   |   |   +---my-test-package-zip
+|   |       |   |   |   +---my-test-package_unpacked-egg
+|   |       |   |   |   |   \---my_test_package-1.0-py3.7.egg
+|   |       |   |   |   |       \---EGG-INFO
+|   |       |   |   |   \---my-test-package_zipped-egg
+|   |       +---platformdirs
+|   |       +---platformdirs-4.3.8.dist-info
+|   |       |   \---licenses
+|   |       +---prometheus_client
+|   |       |   +---bridge
+|   |       |   +---openmetrics
+|   |       |   +---twisted
+|   |       +---prometheus_client-0.22.1.dist-info
+|   |       |   \---licenses
+|   |       +---prompt_toolkit
+|   |       |   +---application
+|   |       |   +---clipboard
+|   |       |   +---completion
+|   |       |   +---contrib
+|   |       |   |   +---completers
+|   |       |   |   +---regular_languages
+|   |       |   |   +---ssh
+|   |       |   |   +---telnet
+|   |       |   +---eventloop
+|   |       |   +---filters
+|   |       |   +---formatted_text
+|   |       |   +---input
+|   |       |   +---key_binding
+|   |       |   |   +---bindings
+|   |       |   +---layout
+|   |       |   +---lexers
+|   |       |   +---output
+|   |       |   +---shortcuts
+|   |       |   |   +---progress_bar
+|   |       |   +---styles
+|   |       |   +---widgets
+|   |       +---prompt_toolkit-3.0.51.dist-info
+|   |       |   \---licenses
+|   |       +---psutil
+|   |       |   +---tests
+|   |       +---psutil-7.0.0.dist-info
+|   |       +---pure_eval
+|   |       +---pure_eval-0.2.3.dist-info
+|   |       +---pycparser
+|   |       |   +---ply
+|   |       +---pycparser-2.22.dist-info
+|   |       +---pydantic
+|   |       |   +---deprecated
+|   |       |   +---experimental
+|   |       |   +---plugin
+|   |       |   +---v1
+|   |       |   +---_internal
+|   |       +---pydantic-2.11.7.dist-info
+|   |       |   \---licenses
+|   |       +---pydantic_core
+|   |       +---pydantic_core-2.33.2.dist-info
+|   |       |   \---licenses
+|   |       +---pygments
+|   |       |   +---filters
+|   |       |   +---formatters
+|   |       |   +---lexers
+|   |       |   +---styles
+|   |       +---pygments-2.19.1.dist-info
+|   |       |   \---licenses
+|   |       +---pyparsing
+|   |       |   +---diagram
+|   |       |   +---tools
+|   |       +---pyparsing-3.2.3.dist-info
+|   |       +---pythonjsonlogger
+|   |       +---pythonwin
+|   |       |   \---pywin
+|   |       |       +---debugger
+|   |       |       +---Demos
+|   |       |       |   +---app
+|   |       |       |   +---ocx
+|   |       |       +---dialogs
+|   |       |       +---docking
+|   |       |       +---framework
+|   |       |       |   +---editor
+|   |       |       |   |   +---color
+|   |       |       +---idle
+|   |       |       +---mfc
+|   |       |       +---scintilla
+|   |       |       +---tools
+|   |       +---python_dateutil-2.9.0.post0.dist-info
+|   |       +---python_dotenv-1.1.0.dist-info
+|   |       |   \---licenses
+|   |       +---python_json_logger-3.3.0.dist-info
+|   |       +---pytz
+|   |       |   +---zoneinfo
+|   |       |   |   +---Africa
+|   |       |   |   +---America
+|   |       |   |   |   +---Argentina
+|   |       |   |   |   +---Indiana
+|   |       |   |   |   +---Kentucky
+|   |       |   |   |   \---North_Dakota
+|   |       |   |   +---Antarctica
+|   |       |   |   +---Arctic
+|   |       |   |   +---Asia
+|   |       |   |   +---Atlantic
+|   |       |   |   +---Australia
+|   |       |   |   +---Brazil
+|   |       |   |   +---Canada
+|   |       |   |   +---Chile
+|   |       |   |   +---Etc
+|   |       |   |   +---Europe
+|   |       |   |   +---Indian
+|   |       |   |   +---Mexico
+|   |       |   |   +---Pacific
+|   |       |   |   \---US
+|   |       +---pytz-2025.2.dist-info
+|   |       +---pywin32-310.dist-info
+|   |       +---pywin32_system32
+|   |       +---pywinpty-2.0.15.dist-info
+|   |       |   \---licenses
+|   |       +---PyYAML-6.0.2.dist-info
+|   |       +---pyzmq-27.0.0.dist-info
+|   |       |   \---licenses
+|   |       |       \---licenses
+|   |       +---referencing
+|   |       |   +---tests
+|   |       +---referencing-0.36.2.dist-info
+|   |       |   \---licenses
+|   |       +---requests
+|   |       +---requests-2.32.4.dist-info
+|   |       |   \---licenses
+|   |       +---rfc3339_validator-0.1.4.dist-info
+|   |       +---rfc3986_validator-0.1.1.dist-info
+|   |       +---rpds
+|   |       +---rpds_py-0.25.1.dist-info
+|   |       |   \---licenses
+|   |       +---scikit_image-0.25.2.dist-info
+|   |       +---scikit_learn-1.7.0.dist-info
+|   |       +---scipy
+|   |       |   +---cluster
+|   |       |   |   +---tests
+|   |       |   +---constants
+|   |       |   |   +---tests
+|   |       |   +---datasets
+|   |       |   |   +---tests
+|   |       |   +---differentiate
+|   |       |   |   +---tests
+|   |       |   +---fft
+|   |       |   |   +---tests
+|   |       |   |   +---_pocketfft
+|   |       |   |   |   +---tests
+|   |       |   +---fftpack
+|   |       |   |   +---tests
+|   |       |   +---integrate
+|   |       |   |   +---tests
+|   |       |   |   +---_ivp
+|   |       |   |   |   +---tests
+|   |       |   |   +---_rules
+|   |       |   +---interpolate
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   +---io
+|   |       |   |   +---arff
+|   |       |   |   |   +---tests
+|   |       |   |   |   |   +---data
+|   |       |   |   +---matlab
+|   |       |   |   |   +---tests
+|   |       |   |   |   |   +---data
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   +---_fast_matrix_market
+|   |       |   |   +---_harwell_boeing
+|   |       |   |   |   +---tests
+|   |       |   +---linalg
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   |   +---_cython_examples
+|   |       |   +---misc
+|   |       |   +---ndimage
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   +---odr
+|   |       |   |   +---tests
+|   |       |   +---optimize
+|   |       |   |   +---cython_optimize
+|   |       |   |   +---tests
+|   |       |   |   |   +---_cython_examples
+|   |       |   |   +---_highspy
+|   |       |   |   +---_lsq
+|   |       |   |   +---_shgo_lib
+|   |       |   |   +---_trlib
+|   |       |   |   +---_trustregion_constr
+|   |       |   |   |   +---tests
+|   |       |   +---signal
+|   |       |   |   +---tests
+|   |       |   |   +---windows
+|   |       |   +---sparse
+|   |       |   |   +---csgraph
+|   |       |   |   |   +---tests
+|   |       |   |   +---linalg
+|   |       |   |   |   +---tests
+|   |       |   |   |   +---_dsolve
+|   |       |   |   |   |   +---tests
+|   |       |   |   |   +---_eigen
+|   |       |   |   |   |   +---arpack
+|   |       |   |   |   |   |   +---tests
+|   |       |   |   |   |   +---lobpcg
+|   |       |   |   |   |   |   +---tests
+|   |       |   |   |   |   +---tests
+|   |       |   |   |   +---_isolve
+|   |       |   |   |   |   +---tests
+|   |       |   |   |   +---_propack
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   +---spatial
+|   |       |   |   +---qhull_src
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   +---transform
+|   |       |   |   |   +---tests
+|   |       |   +---special
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   |   +---_cython_examples
+|   |       |   |   +---xsf
+|   |       |   |   |   \---cephes
+|   |       |   |   +---_precompute
+|   |       |   +---stats
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   |   |   +---levy_stable
+|   |       |   |   |   |   +---nist_anova
+|   |       |   |   |   |   +---nist_linregress
+|   |       |   |   +---_levy_stable
+|   |       |   |   +---_rcont
+|   |       |   |   +---_unuran
+|   |       |   +---_lib
+|   |       |   |   +---array_api_compat
+|   |       |   |   |   +---common
+|   |       |   |   |   +---cupy
+|   |       |   |   |   +---dask
+|   |       |   |   |   |   +---array
+|   |       |   |   |   +---numpy
+|   |       |   |   |   +---torch
+|   |       |   |   +---array_api_extra
+|   |       |   |   +---cobyqa
+|   |       |   |   |   +---subsolvers
+|   |       |   |   |   +---utils
+|   |       |   |   +---tests
+|   |       |   |   +---_uarray
+|   |       +---scipy-1.15.3.dist-info
+|   |       +---scipy.libs
+|   |       +---seaborn
+|   |       |   +---colors
+|   |       |   +---external
+|   |       |   +---_core
+|   |       |   +---_marks
+|   |       |   +---_stats
+|   |       +---seaborn-0.13.2.dist-info
+|   |       +---send2trash
+|   |       |   +---mac
+|   |       |   +---win
+|   |       +---Send2Trash-1.8.3.dist-info
+|   |       +---setuptools
+|   |       |   +---command
+|   |       |   +---compat
+|   |       |   +---config
+|   |       |   |   +---_validate_pyproject
+|   |       |   +---tests
+|   |       |   |   +---compat
+|   |       |   |   +---config
+|   |       |   |   |   +---downloads
+|   |       |   |   +---indexes
+|   |       |   |   |   \---test_links_priority
+|   |       |   |   |       \---simple
+|   |       |   |   |           \---foobar
+|   |       |   |   +---integration
+|   |       |   +---_distutils
+|   |       |   |   +---command
+|   |       |   |   +---compat
+|   |       |   |   +---compilers
+|   |       |   |   |   \---C
+|   |       |   |   |       +---tests
+|   |       |   |   +---tests
+|   |       |   |   |   +---compat
+|   |       |   +---_vendor
+|   |       |   |   +---autocommand
+|   |       |   |   +---autocommand-2.2.2.dist-info
+|   |       |   |   +---backports
+|   |       |   |   |   +---tarfile
+|   |       |   |   |   |   +---compat
+|   |       |   |   +---backports.tarfile-1.2.0.dist-info
+|   |       |   |   +---importlib_metadata
+|   |       |   |   |   +---compat
+|   |       |   |   +---importlib_metadata-8.0.0.dist-info
+|   |       |   |   +---inflect
+|   |       |   |   |   +---compat
+|   |       |   |   +---inflect-7.3.1.dist-info
+|   |       |   |   +---jaraco
+|   |       |   |   |   +---collections
+|   |       |   |   |   +---functools
+|   |       |   |   |   +---text
+|   |       |   |   +---jaraco.collections-5.1.0.dist-info
+|   |       |   |   +---jaraco.context-5.3.0.dist-info
+|   |       |   |   +---jaraco.functools-4.0.1.dist-info
+|   |       |   |   +---jaraco.text-3.12.1.dist-info
+|   |       |   |   +---more_itertools
+|   |       |   |   +---more_itertools-10.3.0.dist-info
+|   |       |   |   +---packaging
+|   |       |   |   |   +---licenses
+|   |       |   |   +---packaging-24.2.dist-info
+|   |       |   |   +---platformdirs
+|   |       |   |   +---platformdirs-4.2.2.dist-info
+|   |       |   |   |   \---licenses
+|   |       |   |   +---tomli
+|   |       |   |   +---tomli-2.0.1.dist-info
+|   |       |   |   +---typeguard
+|   |       |   |   +---typeguard-4.3.0.dist-info
+|   |       |   |   +---typing_extensions-4.12.2.dist-info
+|   |       |   |   +---wheel
+|   |       |   |   |   +---cli
+|   |       |   |   |   +---vendored
+|   |       |   |   |   |   +---packaging
+|   |       |   |   +---wheel-0.45.1.dist-info
+|   |       |   |   +---zipp
+|   |       |   |   |   +---compat
+|   |       |   |   +---zipp-3.19.2.dist-info
+|   |       +---setuptools-80.9.0.dist-info
+|   |       |   \---licenses
+|   |       +---six-1.17.0.dist-info
+|   |       +---skimage
+|   |       |   +---color
+|   |       |   |   +---tests
+|   |       |   +---data
+|   |       |   |   +---tests
+|   |       |   +---draw
+|   |       |   |   +---tests
+|   |       |   +---exposure
+|   |       |   |   +---tests
+|   |       |   +---feature
+|   |       |   |   +---tests
+|   |       |   +---filters
+|   |       |   |   +---rank
+|   |       |   |   |   +---tests
+|   |       |   |   +---tests
+|   |       |   +---future
+|   |       |   |   +---tests
+|   |       |   +---graph
+|   |       |   |   +---tests
+|   |       |   +---io
+|   |       |   |   +---tests
+|   |       |   |   +---_plugins
+|   |       |   +---measure
+|   |       |   |   +---tests
+|   |       |   +---metrics
+|   |       |   |   +---tests
+|   |       |   +---morphology
+|   |       |   |   +---tests
+|   |       |   +---registration
+|   |       |   |   +---tests
+|   |       |   +---restoration
+|   |       |   |   +---tests
+|   |       |   +---segmentation
+|   |       |   |   +---tests
+|   |       |   +---transform
+|   |       |   |   +---tests
+|   |       |   +---util
+|   |       |   |   +---tests
+|   |       |   +---_shared
+|   |       |   |   +---tests
+|   |       |   +---_vendored
+|   |       +---sklearn
+|   |       |   +---.libs
+|   |       |   +---cluster
+|   |       |   |   +---tests
+|   |       |   |   +---_hdbscan
+|   |       |   |   |   +---tests
+|   |       |   +---compose
+|   |       |   |   +---tests
+|   |       |   +---covariance
+|   |       |   |   +---tests
+|   |       |   +---cross_decomposition
+|   |       |   |   +---tests
+|   |       |   +---datasets
+|   |       |   |   +---data
+|   |       |   |   +---descr
+|   |       |   |   +---images
+|   |       |   |   +---tests
+|   |       |   |   |   +---data
+|   |       |   |   |   |   +---openml
+|   |       |   |   |   |   |   +---id_1
+|   |       |   |   |   |   |   +---id_1119
+|   |       |   |   |   |   |   +---id_1590
+|   |       |   |   |   |   |   +---id_2
+|   |       |   |   |   |   |   +---id_292
+|   |       |   |   |   |   |   +---id_3
+|   |       |   |   |   |   |   +---id_40589
+|   |       |   |   |   |   |   +---id_40675
+|   |       |   |   |   |   |   +---id_40945
+|   |       |   |   |   |   |   +---id_40966
+|   |       |   |   |   |   |   +---id_42074
+|   |       |   |   |   |   |   +---id_42585
+|   |       |   |   |   |   |   +---id_561
+|   |       |   |   |   |   |   +---id_61
+|   |       |   |   |   |   |   +---id_62
+|   |       |   +---decomposition
+|   |       |   |   +---tests
+|   |       |   +---ensemble
+|   |       |   |   +---tests
+|   |       |   |   +---_hist_gradient_boosting
+|   |       |   |   |   +---tests
+|   |       |   +---experimental
+|   |       |   |   +---tests
+|   |       |   +---externals
+|   |       |   |   +---array_api_compat
+|   |       |   |   |   +---common
+|   |       |   |   |   +---cupy
+|   |       |   |   |   +---dask
+|   |       |   |   |   |   +---array
+|   |       |   |   |   +---numpy
+|   |       |   |   |   +---torch
+|   |       |   |   +---array_api_extra
+|   |       |   |   |   +---_lib
+|   |       |   |   |   |   +---_utils
+|   |       |   |   +---_packaging
+|   |       |   |   +---_scipy
+|   |       |   |   |   +---sparse
+|   |       |   |   |   |   +---csgraph
+|   |       |   +---feature_extraction
+|   |       |   |   +---tests
+|   |       |   +---feature_selection
+|   |       |   |   +---tests
+|   |       |   +---frozen
+|   |       |   |   +---tests
+|   |       |   +---gaussian_process
+|   |       |   |   +---tests
+|   |       |   +---impute
+|   |       |   |   +---tests
+|   |       |   +---inspection
+|   |       |   |   +---tests
+|   |       |   |   +---_plot
+|   |       |   |   |   +---tests
+|   |       |   +---linear_model
+|   |       |   |   +---tests
+|   |       |   |   +---_glm
+|   |       |   |   |   +---tests
+|   |       |   +---manifold
+|   |       |   |   +---tests
+|   |       |   +---metrics
+|   |       |   |   +---cluster
+|   |       |   |   |   +---tests
+|   |       |   |   +---tests
+|   |       |   |   +---_pairwise_distances_reduction
+|   |       |   |   +---_plot
+|   |       |   |   |   +---tests
+|   |       |   +---mixture
+|   |       |   |   +---tests
+|   |       |   +---model_selection
+|   |       |   |   +---tests
+|   |       |   +---neighbors
+|   |       |   |   +---tests
+|   |       |   +---neural_network
+|   |       |   |   +---tests
+|   |       |   +---preprocessing
+|   |       |   |   +---tests
+|   |       |   +---semi_supervised
+|   |       |   |   +---tests
+|   |       |   +---svm
+|   |       |   |   +---src
+|   |       |   |   |   +---liblinear
+|   |       |   |   |   +---libsvm
+|   |       |   |   |   \---newrand
+|   |       |   |   +---tests
+|   |       |   +---tests
+|   |       |   +---tree
+|   |       |   |   +---tests
+|   |       |   +---utils
+|   |       |   |   +---src
+|   |       |   |   +---tests
+|   |       |   |   +---_repr_html
+|   |       |   |   |   +---tests
+|   |       |   |   +---_test_common
+|   |       |   +---_build_utils
+|   |       |   +---_loss
+|   |       |   |   +---tests
+|   |       |   +---__check_build
+|   |       +---sniffio
+|   |       |   +---_tests
+|   |       +---sniffio-1.3.1.dist-info
+|   |       +---soupsieve
+|   |       +---soupsieve-2.7.dist-info
+|   |       |   \---licenses
+|   |       +---stack_data
+|   |       +---stack_data-0.6.3.dist-info
+|   |       +---statsmodels
+|   |       |   +---base
+|   |       |   |   +---tests
+|   |       |   +---compat
+|   |       |   |   +---tests
+|   |       |   +---datasets
+|   |       |   |   +---anes96
+|   |       |   |   +---cancer
+|   |       |   |   +---ccard
+|   |       |   |   +---china_smoking
+|   |       |   |   +---co2
+|   |       |   |   +---committee
+|   |       |   |   +---copper
+|   |       |   |   +---cpunish
+|   |       |   |   +---danish_data
+|   |       |   |   +---elec_equip
+|   |       |   |   +---elnino
+|   |       |   |   +---engel
+|   |       |   |   +---fair
+|   |       |   |   +---fertility
+|   |       |   |   +---grunfeld
+|   |       |   |   +---heart
+|   |       |   |   +---interest_inflation
+|   |       |   |   +---longley
+|   |       |   |   +---macrodata
+|   |       |   |   +---modechoice
+|   |       |   |   +---nile
+|   |       |   |   +---randhie
+|   |       |   |   +---scotland
+|   |       |   |   +---spector
+|   |       |   |   +---stackloss
+|   |       |   |   +---star98
+|   |       |   |   +---statecrime
+|   |       |   |   +---strikes
+|   |       |   |   +---sunspots
+|   |       |   |   +---tests
+|   |       |   +---discrete
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---distributions
+|   |       |   |   +---copula
+|   |       |   |   +---tests
+|   |       |   +---duration
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---emplike
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---formula
+|   |       |   |   +---tests
+|   |       |   +---gam
+|   |       |   |   +---gam_cross_validation
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---genmod
+|   |       |   |   +---families
+|   |       |   |   |   +---tests
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---graphics
+|   |       |   |   +---tests
+|   |       |   +---imputation
+|   |       |   |   +---tests
+|   |       |   +---interface
+|   |       |   +---iolib
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---miscmodels
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---multivariate
+|   |       |   |   +---factor_rotation
+|   |       |   |   |   +---tests
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---nonparametric
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---othermod
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---regression
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---robust
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---sandbox
+|   |       |   |   +---archive
+|   |       |   |   +---datarich
+|   |       |   |   +---distributions
+|   |       |   |   |   +---examples
+|   |       |   |   |   +---tests
+|   |       |   |   +---mcevaluate
+|   |       |   |   +---nonparametric
+|   |       |   |   |   +---tests
+|   |       |   |   +---panel
+|   |       |   |   |   +---tests
+|   |       |   |   +---regression
+|   |       |   |   |   +---tests
+|   |       |   |   +---stats
+|   |       |   |   |   +---tests
+|   |       |   |   +---tests
+|   |       |   |   +---tools
+|   |       |   |   +---tsa
+|   |       |   +---src
+|   |       |   +---stats
+|   |       |   |   +---libqsturng
+|   |       |   |   |   +---tests
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---tests
+|   |       |   +---tools
+|   |       |   |   +---tests
+|   |       |   |   +---validation
+|   |       |   |   |   +---tests
+|   |       |   +---treatment
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   +---tsa
+|   |       |   |   +---ardl
+|   |       |   |   |   +---tests
+|   |       |   |   |   +---_pss_critical_values
+|   |       |   |   +---arima
+|   |       |   |   |   +---datasets
+|   |       |   |   |   |   +---brockwell_davis_2002
+|   |       |   |   |   |   |   +---data
+|   |       |   |   |   +---estimators
+|   |       |   |   |   |   +---tests
+|   |       |   |   |   +---tests
+|   |       |   |   +---base
+|   |       |   |   |   +---tests
+|   |       |   |   +---exponential_smoothing
+|   |       |   |   +---filters
+|   |       |   |   |   +---tests
+|   |       |   |   |   |   +---results
+|   |       |   |   +---forecasting
+|   |       |   |   |   +---tests
+|   |       |   |   +---holtwinters
+|   |       |   |   |   +---tests
+|   |       |   |   |   |   +---results
+|   |       |   |   +---innovations
+|   |       |   |   |   +---tests
+|   |       |   |   +---interp
+|   |       |   |   |   +---tests
+|   |       |   |   +---regime_switching
+|   |       |   |   |   +---tests
+|   |       |   |   |   |   +---results
+|   |       |   |   +---statespace
+|   |       |   |   |   +---tests
+|   |       |   |   |   |   +---results
+|   |       |   |   |   |   |   +---frbny_nowcast
+|   |       |   |   |   |   |   |   +---Nowcasting
+|   |       |   |   |   |   |   |   |   +---data
+|   |       |   |   |   |   |   |   |   |   +---US
+|   |       |   |   |   |   |   |   |   +---functions
+|   |       |   |   |   +---_filters
+|   |       |   |   |   +---_smoothers
+|   |       |   |   +---stl
+|   |       |   |   |   +---tests
+|   |       |   |   |   |   +---results
+|   |       |   |   +---tests
+|   |       |   |   |   +---results
+|   |       |   |   +---vector_ar
+|   |       |   |   |   +---tests
+|   |       |   |   |   |   +---JMulTi_results
+|   |       |   |   |   |   +---Matlab_results
+|   |       |   |   |   |   +---results
+|   |       +---statsmodels-0.14.4.dist-info
+|   |       +---tabulate
+|   |       +---tabulate-0.9.0.dist-info
+|   |       +---terminado
+|   |       |   +---_static
+|   |       +---terminado-0.18.1.dist-info
+|   |       |   \---licenses
+|   |       +---threadpoolctl-3.6.0.dist-info
+|   |       |   \---licenses
+|   |       +---tifffile
+|   |       +---tifffile-2025.6.11.dist-info
+|   |       |   \---licenses
+|   |       +---tinycss2
+|   |       +---tinycss2-1.4.0.dist-info
+|   |       +---tornado
+|   |       |   +---platform
+|   |       |   +---test
+|   |       |   |   +---csv_translations
+|   |       |   |   +---gettext_translations
+|   |       |   |   |   \---fr_FR
+|   |       |   |   |       \---LC_MESSAGES
+|   |       |   |   +---static
+|   |       |   |   |   \---dir
+|   |       |   |   +---templates
+|   |       +---tornado-6.5.1.dist-info
+|   |       |   \---licenses
+|   |       +---tqdm
+|   |       |   +---contrib
+|   |       +---tqdm-4.67.1.dist-info
+|   |       +---traitlets
+|   |       |   +---config
+|   |       |   +---tests
+|   |       |   +---utils
+|   |       +---traitlets-5.14.3.dist-info
+|   |       |   \---licenses
+|   |       +---types_python_dateutil-2.9.0.20250516.dist-info
+|   |       |   \---licenses
+|   |       +---typing_extensions-4.14.0.dist-info
+|   |       |   \---licenses
+|   |       +---typing_inspection
+|   |       +---typing_inspection-0.4.1.dist-info
+|   |       |   \---licenses
+|   |       +---tzdata
+|   |       |   +---zoneinfo
+|   |       |   |   +---Africa
+|   |       |   |   +---America
+|   |       |   |   |   +---Argentina
+|   |       |   |   |   +---Indiana
+|   |       |   |   |   +---Kentucky
+|   |       |   |   |   +---North_Dakota
+|   |       |   |   +---Antarctica
+|   |       |   |   +---Arctic
+|   |       |   |   +---Asia
+|   |       |   |   +---Atlantic
+|   |       |   |   +---Australia
+|   |       |   |   +---Brazil
+|   |       |   |   +---Canada
+|   |       |   |   +---Chile
+|   |       |   |   +---Etc
+|   |       |   |   +---Europe
+|   |       |   |   +---Indian
+|   |       |   |   +---Mexico
+|   |       |   |   +---Pacific
+|   |       |   |   +---US
+|   |       +---tzdata-2025.2.dist-info
+|   |       |   \---licenses
+|   |       |       \---licenses
+|   |       +---uri_template
+|   |       +---uri_template-1.3.0.dist-info
+|   |       +---urllib3
+|   |       |   +---contrib
+|   |       |   |   +---emscripten
+|   |       |   +---http2
+|   |       |   +---util
+|   |       +---urllib3-2.5.0.dist-info
+|   |       |   \---licenses
+|   |       +---wcwidth
+|   |       +---wcwidth-0.2.13.dist-info
+|   |       +---webcolors
+|   |       +---webcolors-24.11.1.dist-info
+|   |       |   \---licenses
+|   |       +---webencodings
+|   |       +---webencodings-0.5.1.dist-info
+|   |       +---websocket
+|   |       |   +---tests
+|   |       |   |   +---data
+|   |       +---websocket_client-1.8.0.dist-info
+|   |       +---widgetsnbextension
+|   |       |   +---static
+|   |       +---widgetsnbextension-4.0.14.dist-info
+|   |       |   \---licenses
+|   |       +---win32
+|   |       |   +---Demos
+|   |       |   |   +---c_extension
+|   |       |   |   +---dde
+|   |       |   |   +---images
+|   |       |   |   +---pipes
+|   |       |   |   +---security
+|   |       |   |   |   +---sspi
+|   |       |   |   +---service
+|   |       |   |   +---win32wnet
+|   |       |   +---include
+|   |       |   +---lib
+|   |       |   +---libs
+|   |       |   +---scripts
+|   |       |   |   +---VersionStamp
+|   |       |   +---test
+|   |       |   |   +---win32rcparser
+|   |       +---win32com
+|   |       |   +---client
+|   |       |   +---demos
+|   |       |   +---HTML
+|   |       |   |   \---image
+|   |       |   +---include
+|   |       |   +---libs
+|   |       |   +---makegw
+|   |       |   +---server
+|   |       |   +---servers
+|   |       |   +---test
+|   |       +---win32comext
+|   |       |   +---adsi
+|   |       |   |   +---demos
+|   |       |   +---authorization
+|   |       |   |   +---demos
+|   |       |   +---axcontrol
+|   |       |   +---axdebug
+|   |       |   +---axscript
+|   |       |   |   +---client
+|   |       |   |   +---Demos
+|   |       |   |   |   \---client
+|   |       |   |   |       +---asp
+|   |       |   |   |       |   \---interrupt
+|   |       |   |   |       +---ie
+|   |       |   |   |       \---wsh
+|   |       |   |   +---server
+|   |       |   |   +---test
+|   |       |   +---bits
+|   |       |   |   +---test
+|   |       |   +---directsound
+|   |       |   |   +---test
+|   |       |   +---ifilter
+|   |       |   |   +---demo
+|   |       |   +---internet
+|   |       |   +---mapi
+|   |       |   |   +---demos
+|   |       |   +---propsys
+|   |       |   |   +---test
+|   |       |   +---shell
+|   |       |   |   +---demos
+|   |       |   |   |   +---servers
+|   |       |   |   +---test
+|   |       |   \---taskscheduler
+|   |       |       +---test
+|   |       +---winpty
+|   |       |   +---tests
+|   |       +---xarray
+|   |       |   +---backends
+|   |       |   +---coding
+|   |       |   +---compat
+|   |       |   +---computation
+|   |       |   +---core
+|   |       |   +---indexes
+|   |       |   +---namedarray
+|   |       |   +---plot
+|   |       |   +---static
+|   |       |   |   +---css
+|   |       |   |   +---html
+|   |       |   +---structure
+|   |       |   +---testing
+|   |       |   +---tests
+|   |       |   |   +---data
+|   |       |   +---util
+|   |       +---xarray-2025.6.1.dist-info
+|   |       |   \---licenses
+|   |       +---yaml
+|   |       +---zmq
+|   |       |   +---auth
+|   |       |   +---backend
+|   |       |   |   +---cffi
+|   |       |   |   +---cython
+|   |       |   +---devices
+|   |       |   +---eventloop
+|   |       |   +---green
+|   |       |   |   +---eventloop
+|   |       |   +---log
+|   |       |   +---ssh
+|   |       |   +---sugar
+|   |       |   +---tests
+|   |       |   +---utils
+|   |       +---_argon2_cffi_bindings
+|   |       +---_distutils_hack
+|   |       +---_yaml
+|   +---Scripts
+|   \---share
+|       +---applications
+|       +---icons
+|       |   \---hicolor
+|       |       \---scalable
+|       |           \---apps
+|       +---jupyter
+|       |   +---kernels
+|       |   |   \---python3
+|       |   +---lab
+|       |   |   +---schemas
+|       |   |   |   +---@jupyter-notebook
+|       |   |   |   |   +---application-extension
+|       |   |   |   |   +---documentsearch-extension
+|       |   |   |   |   +---help-extension
+|       |   |   |   |   +---notebook-extension
+|       |   |   |   |   \---tree-extension
+|       |   |   |   \---@jupyterlab
+|       |   |   |       +---application-extension
+|       |   |   |       +---apputils-extension
+|       |   |   |       +---cell-toolbar-extension
+|       |   |   |       +---celltags-extension
+|       |   |   |       +---codemirror-extension
+|       |   |   |       +---completer-extension
+|       |   |   |       +---console-extension
+|       |   |   |       +---csvviewer-extension
+|       |   |   |       +---debugger-extension
+|       |   |   |       +---docmanager-extension
+|       |   |   |       +---documentsearch-extension
+|       |   |   |       +---extensionmanager-extension
+|       |   |   |       +---filebrowser-extension
+|       |   |   |       +---fileeditor-extension
+|       |   |   |       +---help-extension
+|       |   |   |       +---htmlviewer-extension
+|       |   |   |       +---hub-extension
+|       |   |   |       +---imageviewer-extension
+|       |   |   |       +---inspector-extension
+|       |   |   |       +---launcher-extension
+|       |   |   |       +---logconsole-extension
+|       |   |   |       +---lsp-extension
+|       |   |   |       +---mainmenu-extension
+|       |   |   |       +---markdownviewer-extension
+|       |   |   |       +---mathjax-extension
+|       |   |   |       +---metadataform-extension
+|       |   |   |       +---notebook-extension
+|       |   |   |       +---running-extension
+|       |   |   |       +---settingeditor-extension
+|       |   |   |       +---shortcuts-extension
+|       |   |   |       +---statusbar-extension
+|       |   |   |       +---terminal-extension
+|       |   |   |       +---toc-extension
+|       |   |   |       +---tooltip-extension
+|       |   |   |       +---translation-extension
+|       |   |   |       \---workspaces-extension
+|       |   |   +---static
+|       |   |   \---themes
+|       |   |       \---@jupyterlab
+|       |   |           +---theme-dark-extension
+|       |   |           +---theme-dark-high-contrast-extension
+|       |   |           \---theme-light-extension
+|       |   +---labextensions
+|       |   |   +---@jupyter-notebook
+|       |   |   |   \---lab-extension
+|       |   |   |       +---schemas
+|       |   |   |       |   \---@jupyter-notebook
+|       |   |   |       |       \---lab-extension
+|       |   |   |       \---static
+|       |   |   +---@jupyter-widgets
+|       |   |   |   \---jupyterlab-manager
+|       |   |   |       +---schemas
+|       |   |   |       |   \---@jupyter-widgets
+|       |   |   |       |       \---jupyterlab-manager
+|       |   |   |       \---static
+|       |   |   \---jupyterlab_pygments
+|       |   |       \---static
+|       |   +---nbconvert
+|       |   |   \---templates
+|       |   |       +---asciidoc
+|       |   |       +---base
+|       |   |       +---basic
+|       |   |       +---classic
+|       |   |       |   \---static
+|       |   |       +---compatibility
+|       |   |       +---lab
+|       |   |       |   \---static
+|       |   |       +---latex
+|       |   |       +---markdown
+|       |   |       +---python
+|       |   |       +---reveal
+|       |   |       |   \---static
+|       |   |       +---rst
+|       |   |       +---script
+|       |   |       \---webpdf
+|       |   \---nbextensions
+|       |       \---jupyter-js-widgets
+|       \---man
+|           \---man1
++---docs
+|   +---literature_notes
+|   +---meeting_notes
+|   \---methodology
++---Literature_review
+|   +---evaluation_metrics
+|   \---New folder
++---logs
++---Notebooks
++---notebook_outputs
+|   +---analysis
+|   \---charts
+\---results
+    +---figures
+    +---statistical_output
+    +---tables
+    \---validation_reports
