@@ -1,152 +1,217 @@
 #!/usr/bin/env python3
 """
-Fix Duplicate Charts Script
-===========================
-1. Investigates which version of duplicates was used in analysis
-2. Fixes duplicates by renumbering them
-3. Updates all related perturbations
+Remove Unused Duplicate Charts
+==============================
+Safely removes duplicate charts that were never used in analysis
 """
 
 import os
-import json
 import shutil
 from pathlib import Path
-from collections import defaultdict
+from datetime import datetime
 
-def investigate_duplicate_usage():
-    """Check which version of duplicates was actually used"""
-    print("=== INVESTIGATING DUPLICATE USAGE ===\n")
+def identify_charts_to_remove():
+    """Identify which duplicate charts to remove based on perturbation usage"""
+    print("=== IDENTIFYING CHARTS TO REMOVE ===\n")
     
-    # Load extraction results to see which versions were extracted
-    extraction_path = "E:/langchain/Dissertation/data/analysis_cache/complete_extraction_results.json"
-    
-    duplicates = {
-        'chart_001': ['chart_001_complex_bar', 'chart_001_medium_bar'],
-        'chart_002': ['chart_002_medium_bar', 'chart_002_medium_line'],
-        'chart_003': ['chart_003_advanced_pie', 'chart_003_medium_bar']
-    }
-    
-    if os.path.exists(extraction_path):
-        with open(extraction_path, 'r') as f:
-            extractions = json.load(f)
-        
-        print("Checking extraction results for duplicates:\n")
-        
-        for chart_id, versions in duplicates.items():
-            print(f"{chart_id}:")
-            for version in versions:
-                # Check original extraction
-                original_key = f"{version}_original"
-                if original_key in extractions:
-                    print(f"  ✓ {version} - FOUND in extractions")
-                else:
-                    print(f"  ✗ {version} - NOT in extractions")
-                
-                # Check perturbations
-                pert_count = sum(1 for key in extractions.keys() if key.startswith(f"{version}_") and not key.endswith('_original'))
-                if pert_count > 0:
-                    print(f"    → Has {pert_count} perturbations")
-            print()
-    
-    # Check perturbation files
-    print("\nChecking perturbation files:\n")
+    raw_dir = Path("data/raw_charts")
     pert_dir = Path("data/perturbations")
     
-    for chart_id, versions in duplicates.items():
-        print(f"{chart_id}:")
-        for version in versions:
-            pert_files = list(pert_dir.glob(f"{version}_*.png"))
-            print(f"  {version}: {len(pert_files)} perturbation files")
-        print()
-    
-    return duplicates
-
-def fix_duplicates():
-    """Fix duplicates by renumbering"""
-    print("\n=== FIXING DUPLICATES ===\n")
-    
-    # Strategy: Keep the first version, renumber the second version to 201, 202, 203
-    renumber_map = {
-        'chart_001_medium_bar': 'chart_201_medium_bar',
-        'chart_002_medium_line': 'chart_202_medium_line', 
-        'chart_003_medium_bar': 'chart_203_medium_bar'
+    # Based on the investigation, here's what we found:
+    duplicates = {
+        'chart_001': {
+            'complex_bar': 12,  # has perturbations - KEEP
+            'medium_bar': 0     # no perturbations - REMOVE
+        },
+        'chart_002': {
+            'medium_bar': 18,   # has perturbations - KEEP
+            'medium_line': 18   # also has perturbations - PROBLEM!
+        },
+        'chart_003': {
+            'advanced_pie': 6,  # has perturbations - KEEP
+            'medium_bar': 18    # also has perturbations - PROBLEM!
+        }
     }
     
-    # Also handle chart_200 → chart_204 to keep sequence clean
-    renumber_map['chart_200_complex_pie'] = 'chart_204_complex_pie'
+    # For chart_001, it's clear: remove medium_bar
+    # For chart_002 and chart_003, both versions have perturbations!
+    # Let's check which perturbations are actually in the extraction results
     
-    print("Renumbering plan:")
-    for old, new in renumber_map.items():
-        print(f"  {old} → {new}")
+    charts_to_remove = []
+    charts_to_keep = []
+    problem_charts = []
+    
+    print("Analysis:")
+    print("-" * 50)
+    
+    # Chart_001: Clear case
+    print("chart_001:")
+    print("  - complex_bar: 12 perturbations → KEEP")
+    print("  - medium_bar: 0 perturbations → REMOVE")
+    charts_to_keep.append("chart_001_complex_bar")
+    charts_to_remove.append("chart_001_medium_bar")
+    
+    # Chart_002: Both have perturbations
+    print("\nchart_002:")
+    print("  - medium_bar: 18 perturbations")
+    print("  - medium_line: 18 perturbations")
+    print("    BOTH have perturbations! Need to check which were analyzed")
+    problem_charts.append(('chart_002', ['medium_bar', 'medium_line']))
+    
+    # Chart_003: Both have perturbations  
+    print("\nchart_003:")
+    print("  - advanced_pie: 6 perturbations")
+    print("  - medium_bar: 18 perturbations")
+    print("    BOTH have perturbations! Need to check which were analyzed")
+    problem_charts.append(('chart_003', ['advanced_pie', 'medium_bar']))
+    
+    # Chart_200: Extra chart
+    print("\nchart_200:")
+    print("  - complex_pie: ID > 199 → REMOVE (outside expected range)")
+    charts_to_remove.append("chart_200_complex_pie")
+    
+    return charts_to_remove, charts_to_keep, problem_charts
+
+def check_robustness_analysis():
+    """Check which versions were used in robustness analysis"""
+    print("\n=== CHECKING ROBUSTNESS ANALYSIS ===\n")
+    
+    robustness_path = "E:/langchain/Dissertation/data/analysis_cache/robustness_analysis_corrected.csv"
+    
+    if os.path.exists(robustness_path):
+        import pandas as pd
+        df = pd.read_csv(robustness_path)
+        
+        # Check which chart_002 and chart_003 versions appear
+        keys = df['extraction_key'].tolist()
+        
+        chart_002_types = {'medium_bar': 0, 'medium_line': 0}
+        chart_003_types = {'advanced_pie': 0, 'medium_bar': 0}
+        
+        for key in keys:
+            if 'chart_002_medium_bar' in key:
+                chart_002_types['medium_bar'] += 1
+            elif 'chart_002_medium_line' in key:
+                chart_002_types['medium_line'] += 1
+            elif 'chart_003_advanced_pie' in key:
+                chart_003_types['advanced_pie'] += 1
+            elif 'chart_003_medium_bar' in key:
+                chart_003_types['medium_bar'] += 1
+        
+        print("Usage in robustness analysis:")
+        print(f"chart_002_medium_bar: {chart_002_types['medium_bar']} entries")
+        print(f"chart_002_medium_line: {chart_002_types['medium_line']} entries")
+        print(f"chart_003_advanced_pie: {chart_003_types['advanced_pie']} entries")
+        print(f"chart_003_medium_bar: {chart_003_types['medium_bar']} entries")
+        
+        # Determine which to keep based on usage
+        decisions = {}
+        
+        if chart_002_types['medium_bar'] > chart_002_types['medium_line']:
+            decisions['chart_002'] = ('keep_medium_bar', 'remove_medium_line')
+        elif chart_002_types['medium_line'] > chart_002_types['medium_bar']:
+            decisions['chart_002'] = ('keep_medium_line', 'remove_medium_bar')
+        else:
+            decisions['chart_002'] = ('keep_medium_bar', 'remove_medium_line')  # default
+        
+        if chart_003_types['advanced_pie'] > chart_003_types['medium_bar']:
+            decisions['chart_003'] = ('keep_advanced_pie', 'remove_medium_bar')
+        elif chart_003_types['medium_bar'] > chart_003_types['advanced_pie']:
+            decisions['chart_003'] = ('keep_medium_bar', 'remove_advanced_pie')
+        else:
+            decisions['chart_003'] = ('keep_advanced_pie', 'remove_medium_bar')  # default
+        
+        return decisions
+    else:
+        print("Robustness analysis file not found!")
+        return None
+
+def remove_charts_safely(charts_to_remove, decisions):
+    """Safely remove the identified charts"""
+    print("\n=== REMOVING UNUSED CHARTS ===\n")
     
     # Create backup directory
-    backup_dir = Path("data/backup_before_fix")
+    backup_dir = Path(f"data/removed_duplicates_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
     backup_dir.mkdir(exist_ok=True)
     
-    # Process raw charts
-    print("\n1. Fixing raw charts...")
+    # Final removal list
+    final_removal_list = [
+        "chart_001_medium_bar",    # No perturbations used
+        "chart_200_complex_pie"    # Outside range
+    ]
+    
+    # Add decisions for chart_002 and chart_003
+    if decisions:
+        if decisions['chart_002'][1] == 'remove_medium_line':
+            final_removal_list.append("chart_002_medium_line")
+        else:
+            final_removal_list.append("chart_002_medium_bar")
+            
+        if decisions['chart_003'][1] == 'remove_medium_bar':
+            final_removal_list.append("chart_003_medium_bar")
+        else:
+            final_removal_list.append("chart_003_advanced_pie")
+    
+    print("Files to remove:")
+    for chart in final_removal_list:
+        print(f"  - {chart}.png")
+    
+    # Remove from raw_charts
     raw_dir = Path("data/raw_charts")
-    fixed_count = 0
+    removed_count = 0
     
-    for old_name, new_name in renumber_map.items():
-        old_file = raw_dir / f"{old_name}.png"
-        new_file = raw_dir / f"{new_name}.png"
-        
-        if old_file.exists():
+    for chart_name in final_removal_list:
+        chart_file = raw_dir / f"{chart_name}.png"
+        if chart_file.exists():
             # Backup
-            shutil.copy2(old_file, backup_dir / f"{old_name}.png")
-            # Rename
-            shutil.move(str(old_file), str(new_file))
-            print(f"  ✓ Renamed {old_name} → {new_name}")
-            fixed_count += 1
+            shutil.copy2(chart_file, backup_dir / chart_file.name)
+            # Remove
+            chart_file.unlink()
+            print(f"  ✓ Removed {chart_name}.png")
+            removed_count += 1
     
-    # Process perturbations
-    print("\n2. Fixing perturbations...")
+    # Remove associated perturbations (if any exist for removed charts)
     pert_dir = Path("data/perturbations")
-    pert_fixed = 0
+    pert_removed = 0
     
-    for old_base, new_base in renumber_map.items():
-        # Find all perturbations for this chart
-        pert_files = list(pert_dir.glob(f"{old_base}_*.png"))
-        
+    for chart_name in final_removal_list:
+        pert_files = list(pert_dir.glob(f"{chart_name}_*.png"))
         for pert_file in pert_files:
-            # Get the perturbation suffix
-            old_name = pert_file.stem
-            suffix = old_name.replace(old_base, '')
-            new_name = f"{new_base}{suffix}"
-            
-            old_path = pert_file
-            new_path = pert_dir / f"{new_name}.png"
-            
-            # Backup and rename
-            shutil.copy2(old_path, backup_dir / pert_file.name)
-            shutil.move(str(old_path), str(new_path))
-            pert_fixed += 1
+            # Backup
+            shutil.copy2(pert_file, backup_dir / pert_file.name)
+            # Remove
+            pert_file.unlink()
+            pert_removed += 1
         
         if pert_files:
-            print(f"  ✓ Fixed {len(pert_files)} perturbations for {old_base}")
+            print(f"  ✓ Removed {len(pert_files)} perturbations for {chart_name}")
     
-    print(f"\n✓ Fixed {fixed_count} raw charts")
-    print(f"✓ Fixed {pert_fixed} perturbations")
-    print(f"✓ Backups saved to: {backup_dir}")
+    # Clean up organized folders
+    for org_dir in ["data/raw_charts_organized", "data/perturbations_organized"]:
+        if Path(org_dir).exists():
+            shutil.rmtree(org_dir)
+            print(f"  ✓ Cleaned {org_dir}")
     
-    return renumber_map
+    print(f"\n Removed {removed_count} duplicate charts")
+    print(f" Removed {pert_removed} associated perturbations")
+    print(f" Backups saved to: {backup_dir}")
+    
+    # Save removal log
+    with open(backup_dir / "removal_log.txt", 'w') as f:
+        f.write(f"Duplicate Removal Log\n")
+        f.write(f"Date: {datetime.now()}\n")
+        f.write(f"Charts removed: {final_removal_list}\n")
+        f.write(f"Total charts removed: {removed_count}\n")
+        f.write(f"Total perturbations removed: {pert_removed}\n")
 
-def update_organized_folders():
-    """Update the organized folders with fixed names"""
-    print("\n3. Updating organized folders...")
-    
-    # Re-run organization with fixed files
-    os.system("python reorganize_charts_script.py")
-
-def verify_fix():
-    """Verify no more duplicates exist"""
-    print("\n=== VERIFYING FIX ===\n")
+def verify_cleanup():
+    """Verify the cleanup was successful"""
+    print("\n=== VERIFYING CLEANUP ===\n")
     
     raw_dir = Path("data/raw_charts")
     chart_files = list(raw_dir.glob("chart_*.png"))
     
-    # Extract all chart IDs
+    # Count and check for duplicates
     chart_ids = []
     for f in chart_files:
         parts = f.stem.split('_')
@@ -157,72 +222,54 @@ def verify_fix():
                 pass
     
     # Check for duplicates
-    seen = set()
-    duplicates = []
-    for id in chart_ids:
-        if id in seen:
-            duplicates.append(id)
-        seen.add(id)
+    from collections import Counter
+    id_counts = Counter(chart_ids)
+    duplicates = [id for id, count in id_counts.items() if count > 1]
     
-    print(f"Total charts: {len(chart_files)}")
+    print(f"Total charts remaining: {len(chart_files)}")
+    print(f"Expected: 200 charts")
     print(f"Unique IDs: {len(set(chart_ids))}")
-    print(f"ID range: {min(chart_ids)} - {max(chart_ids)}")
     
     if duplicates:
-        print(f"  Still have duplicates: {duplicates}")
+        print(f"  Still have duplicate IDs: {duplicates}")
     else:
         print(" No duplicates found!")
     
-    print(f"\nExpected: 204 charts (200 original + 4 renumbered)")
-    print(f"Actual: {len(chart_files)} charts")
-
-def create_mapping_file(renumber_map):
-    """Create a mapping file for future reference"""
-    mapping_data = {
-        'date': str(Path.ctime(Path.cwd())),
-        'duplicates_fixed': renumber_map,
-        'explanation': {
-            'chart_001': 'Kept complex_bar, renamed medium_bar to 201',
-            'chart_002': 'Kept medium_bar, renamed medium_line to 202',
-            'chart_003': 'Kept advanced_pie, renamed medium_bar to 203',
-            'chart_200': 'Renamed to 204 to avoid confusion'
-        }
-    }
-    
-    with open('data/duplicate_fix_mapping.json', 'w') as f:
-        json.dump(mapping_data, f, indent=2)
-    
-    print("\n✓ Mapping saved to: data/duplicate_fix_mapping.json")
+    # Show summary
+    print(f"\nSummary:")
+    print(f"  - Started with: 203 charts")
+    print(f"  - Removed: 3 charts")
+    print(f"  - Now have: {len(chart_files)} charts")
 
 def main():
     """Main execution"""
     print("="*60)
-    print("DUPLICATE CHARTS FIX")
+    print("REMOVE UNUSED DUPLICATE CHARTS")
     print("="*60)
     
-    # First investigate which versions were used
-    investigate_duplicate_usage()
+    # Identify charts to remove
+    to_remove, to_keep, problems = identify_charts_to_remove()
     
-    # Ask for confirmation
-    response = input("\nProceed with fixing duplicates? (y/n): ")
+    # Check robustness analysis for problem charts
+    decisions = check_robustness_analysis()
+    
+    # Confirm before proceeding
+    print("\n" + "="*60)
+    response = input("\nProceed with removing unused duplicates? (y/n): ")
     
     if response.lower() == 'y':
-        # Fix duplicates
-        renumber_map = fix_duplicates()
+        # Remove charts
+        remove_charts_safely(to_remove, decisions)
         
-        # Create mapping file
-        create_mapping_file(renumber_map)
+        # Verify
+        verify_cleanup()
         
-        # Verify fix
-        verify_fix()
-        
-        print("\n FIX COMPLETE!")
+        print("\n CLEANUP COMPLETE!")
         print("\nNext steps:")
-        print("1. Re-run organization script to update organized folders")
-        print("2. Update any analysis that referenced the old chart IDs")
-        print("3. Document this fix in your methodology")
+        print("1. Re-run organization script: python reorganize_charts_script.py")
+        print("2. Your analysis remains unaffected - we only removed unused files")
     else:
-        print("\nFix cancelled.")
+        print("\nCleanup cancelled.")
 
 if __name__ == "__main__":
     main()

@@ -5,99 +5,99 @@ RAW CHARTS:
 
 COMPLEX:
   bar: 35 charts
-  pie: 7 charts
+  pie: 6 charts
   line: 18 charts
   scatter: 11 charts
   area: 8 charts
-  Total: 79 charts
+  Total: 78 charts
 
 MEDIUM:
-  bar: 28 charts
+  bar: 26 charts
   pie: 8 charts
   line: 23 charts
   scatter: 10 charts
   area: 5 charts
-  Total: 74 charts
+  Total: 72 charts
 
 ADVANCED:
   bar: 12 charts
-  pie: 12 charts
+  pie: 11 charts
   line: 10 charts
   scatter: 12 charts
   area: 4 charts
-  Total: 50 charts
+  Total: 49 charts
 
 
 PERTURBATIONS:
 
 AXIS_DEGRADATION:
-  complex: 29 files
-  medium: 25 files
+  complex: 28 files
+  medium: 24 files
   advanced: 21 files
-  Total: 75 files
+  Total: 73 files
 
 BRIGHTNESS_SHIFT:
-  complex: 95 files
-  medium: 83 files
-  advanced: 72 files
-  Total: 250 files
+  complex: 94 files
+  medium: 80 files
+  advanced: 71 files
+  Total: 245 files
 
 CONTRAST_CHANGE:
-  complex: 29 files
-  medium: 25 files
+  complex: 28 files
+  medium: 24 files
   advanced: 21 files
-  Total: 75 files
+  Total: 73 files
 
 GAUSSIAN_BLUR:
-  complex: 95 files
-  medium: 83 files
-  advanced: 72 files
-  Total: 250 files
+  complex: 94 files
+  medium: 80 files
+  advanced: 71 files
+  Total: 245 files
 
 GRAYSCALE_CONVERSION:
-  complex: 59 files
-  medium: 53 files
-  advanced: 38 files
-  Total: 150 files
+  complex: 58 files
+  medium: 52 files
+  advanced: 37 files
+  Total: 147 files
 
 LEGEND_CORRUPTION:
-  complex: 59 files
-  medium: 53 files
-  advanced: 38 files
-  Total: 150 files
+  complex: 58 files
+  medium: 52 files
+  advanced: 37 files
+  Total: 147 files
 
 MOTION_BLUR:
-  complex: 29 files
-  medium: 25 files
+  complex: 28 files
+  medium: 24 files
   advanced: 21 files
-  Total: 75 files
+  Total: 73 files
 
 RANDOM_BLOCKS:
-  complex: 59 files
-  medium: 53 files
-  advanced: 38 files
-  Total: 150 files
+  complex: 58 files
+  medium: 52 files
+  advanced: 37 files
+  Total: 147 files
 
 ROTATION:
-  complex: 95 files
-  medium: 83 files
-  advanced: 72 files
-  Total: 250 files
+  complex: 94 files
+  medium: 80 files
+  advanced: 71 files
+  Total: 245 files
 
 SALT_PEPPER_NOISE:
-  complex: 29 files
-  medium: 25 files
+  complex: 28 files
+  medium: 24 files
   advanced: 21 files
-  Total: 75 files
+  Total: 73 files
 
 SCALING:
-  complex: 29 files
-  medium: 25 files
+  complex: 28 files
+  medium: 24 files
   advanced: 21 files
-  Total: 75 files
+  Total: 73 files
 
 TEXT_OVERLAY:
-  complex: 29 files
-  medium: 25 files
+  complex: 28 files
+  medium: 24 files
   advanced: 21 files
-  Total: 75 files
+  Total: 73 files

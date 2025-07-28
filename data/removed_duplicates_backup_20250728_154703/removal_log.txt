@@ -1,0 +1,5 @@
+Duplicate Removal Log
+Date: 2025-07-28 15:47:04.217544
+Charts removed: ['chart_001_medium_bar', 'chart_200_complex_pie', 'chart_002_medium_bar', 'chart_003_advanced_pie']
+Total charts removed: 4
+Total perturbations removed: 36
